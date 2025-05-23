@@ -1,0 +1,16 @@
+
+.num{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), purple);
+    margin: 0;
+    height: 100vh;
+    font-family: arial, sans-serif;
+    color: rgb(234, 234, 234);
+}
+body{
+    background: linear-gradient(to bottom, rgb(146, 8, 146), rgb(0, 0, 0));
+    margin: 0;
+    height: 100vh;
+    font-family: arial, sans-serif;
+    color: rgb(228, 228, 228)
+    
+}
