@@ -3,5 +3,9 @@ body {
     height: 100vh;
     font-family: Arial, sans-serif;
     color: white;
-    margin-left: 50px;
+}
+.img-fluid {
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 15px 8px 25px 0 rgba(0, 0, 0, 0.6);
 }
