@@ -1,0 +1,40 @@
+body{
+    background-color: #121212 !important;
+}
+
+.playlist {
+    background-color: #F230AA;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 78px;
+    height: 33px;
+}
+
+.album {
+    background-color: #2658A7;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 78px;
+    height: 33px;
+}
+
+.podcast {
+    background-color: #F230AA;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 78px;
+    height: 33px;
+}
+
+.criar {
+    background-color: #CCF656;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 78px;
+    height: 33px;
+}
+    
