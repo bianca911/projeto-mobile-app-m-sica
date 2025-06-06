@@ -10,35 +10,32 @@ body::before {
 }
 
 .col{
-        padding-top: 20px;
+        padding-top: 30px;
 }
 .col h1{
         
         color: white;
         font-weight: bold;
+        font-size: 33px;
         font-family: 'Kdam Thmor Pro', sans-serif !important;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: #684747;
 }
 
 .col p{
-        
         color: white;
-        font-weight: bold;
+        font-weight: 100;
         font-family: 'Kdam Thmor Pro', sans-serif !important;
-        -webkit-text-stroke-width: 1px;
-      
+        font-size: 12px;
+}
+
+.col {
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
 }
 
 .form-control {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid black;
-        border-radius: 6px;
-        font-size: 16px;
-}
-.form-control:focus {
-        border-color: black;
-        outline: none;
-        box-shadow: 0 0 0 2px;
+        margin-top: 7px;
+        
 }
