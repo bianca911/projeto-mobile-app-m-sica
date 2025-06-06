@@ -2,6 +2,11 @@ body{
     background-color: #121212 !important;
 }
 
+.botões {
+    padding-left: 35px;
+    margin-top: 15px;
+}
+
 .playlist {
     background-color: #F230AA;
     color: white;
@@ -16,7 +21,7 @@ body{
     color: white;
     border-radius: 20px;
     font-size: 12px;
-    width: 78px;
+    width: 67px;
     height: 33px;
 }
 
@@ -25,16 +30,31 @@ body{
     color: white;
     border-radius: 20px;
     font-size: 12px;
-    width: 78px;
+    width: 79px;
     height: 33px;
 }
 
 .criar {
     background-color: #CCF656;
-    color: white;
+    color: 18461A;
     border-radius: 20px;
     font-size: 12px;
-    width: 78px;
+    width: 110px;
     height: 33px;
 }
     
+.música {
+    background-color: #F230AA;
+    color: white;
+    width: 341px;
+    height: 59px;
+    border: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.img-melanie {
+    width: 48px;
+    height: 48px;
+    border-radius: 9px;
+}
