@@ -44,17 +44,26 @@ body{
 }
     
 .música {
-    background-color: #F230AA;
     color: white;
     width: 341px;
     height: 59px;
     border: 15px;
-    margin-top: 15px;
-    padding-left: 10px;
+    margin-top: 30px;
+    padding-left: 49px;
 }
 
 .img-melanie {
     width: 48px;
     height: 48px;
     border-radius: 9px;
+}
+
+.título{
+    font-size: 15px;
+color: white;
+}
+
+.artista{
+    font-size: 10px;
+    color: #CCF656;
 }
