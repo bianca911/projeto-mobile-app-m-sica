@@ -5,7 +5,22 @@ body {
     color: white;
 }
 .img-fluid {
-    margin: 50px;
+    margin: 10px;
+    margin-left: 20px;
     border-radius: 10px;
     box-shadow: 15px 8px 25px 0 rgba(0, 0, 0, 0.6);
+    
+}
+.blabla h1 {
+    font-size: 50px;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.testando {
+    margin-top: 10px;
+    color: white;
 }
