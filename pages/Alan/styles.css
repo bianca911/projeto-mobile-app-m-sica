@@ -3,6 +3,10 @@ body {
     height: 100vh;
     font-family: Arial, sans-serif;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 100vh;
 }
 .img-fluid {
     margin: 10px;
@@ -48,10 +52,10 @@ body {
     font-weight: 400;
     font-style: normal;
     display: flex;
+    gap: 5px;
     color: #b4b4b4;
+    margin: 30px;
+    margin-top: 5px;
+    flex: 1 1 calc(50% - 0.5rem); 
+    margin: 0 auto;
 }
-.bundas {
-  margin: 10px;
-}
-  
-
