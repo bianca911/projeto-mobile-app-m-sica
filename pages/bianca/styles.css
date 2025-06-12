@@ -10,13 +10,13 @@ body::before {
 }
 
 .col{
-        padding-top: 30px;
+        padding-top: 115px;
 }
 .col h1{
         
         color: white;
         font-weight: bold;
-        font-size: 33px;
+        font-size: 40px;
         font-family: 'Kdam Thmor Pro', sans-serif !important;
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: #684747;
@@ -26,7 +26,8 @@ body::before {
         color: white;
         font-weight: 100;
         font-family: 'Kdam Thmor Pro', sans-serif !important;
-        font-size: 12px;
+        font-size: 15px;
+        padding-top: 30px;
 }
 
 .col {
