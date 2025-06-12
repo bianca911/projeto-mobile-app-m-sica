@@ -25,17 +25,33 @@ body {
     color: white;
 }
 .img {
-    margin-left: 40px;
-
+    margin-left: 30px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
-.container  {
+.bunda  {
     font-family: "Itim", cursive;
     font-weight: 400;
     font-style: normal;
     display: flex;
     gap: 5px;
     color: white;
+    align-items: center;
 }
+.bunda p {
+    flex: 1 1 calc(50% - 0.5rem); 
+    margin: 0 auto;
+  }
 
+.sla {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    color: #b4b4b4;
+}
+.bundas {
+  margin: 10px;
+}
   
 
