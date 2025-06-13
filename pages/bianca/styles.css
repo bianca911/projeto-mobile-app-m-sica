@@ -46,3 +46,24 @@ body::before {
         padding-top: 30px;
 
 }
+
+.oo button{
+     background-color: #B22675; 
+     color: rgb(255, 255, 255);
+     padding: 15px 50px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 7px 10px;
+     border-radius: 20px;  
+}
+
+.container text{
+        color: black;
+}
+
+.text{
+        padding-top: 30px;
+        font-size: 20px;
+}
