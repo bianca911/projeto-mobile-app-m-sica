@@ -56,10 +56,39 @@ body {
     color: #b4b4b4;
     margin: 30px;
     margin-top: 5px;
-   
 }
 .bundass {
+    
     font-size: 13px;
     gap: 30px;
     display: flex;
+}
+.botoes {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    display: flex;
+    gap: 30px;
+    margin-top: -30px;
+    padding-left: 40px;
+}
+
+.slas button {
+    background-color: #6772B3;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    gap: 30px;
+    border: #b4b4b4;
+}
+.slass button {
+    background-color: #4E578D;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    border: #b4b4b4;
 }
