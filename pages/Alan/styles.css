@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #C72471, #2658A7, #121212);
+    background: linear-gradient(to bottom, #C72471, #2658A7, #1C355D ,#121212);
     height: 100vh;
     font-family: Arial, sans-serif;
     color: white;
@@ -68,7 +68,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 25px;
+    font-size: 22px;
     display: flex;
     gap: 30px;
     margin-top: -30px;
@@ -81,7 +81,6 @@ body {
     border-radius: 30px;
     width: 150px;
     height: 40px;
-    gap: 30px;
     border: #b4b4b4;
 }
 .slass button {
@@ -91,4 +90,25 @@ body {
     width: 150px;
     height: 40px;
     border: #b4b4b4;
+}
+.mais {
+    margin-top: 30px;
+    padding-left: 20px;
+  
+}
+.button {
+    background-color: #4E578D;
+    width: 40px;
+    height: 40px;
+    border: #b4b4b4;
+    color: #DEDEDE;
+    align-items: center;
+    display: flex;
+}
+.bunda3 {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
