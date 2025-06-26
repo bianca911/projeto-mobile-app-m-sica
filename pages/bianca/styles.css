@@ -55,7 +55,7 @@ body::before {
      text-decoration: none;
      display: inline-block;
      font-size: 16px;
-     margin: 7px 10px;
+     margin: 6px 10px;
      border-radius: 20px;  
 }
 
@@ -66,4 +66,16 @@ body::before {
 .text{
         padding-top: 30px;
         font-size: 20px;
+}
+
+.o button{
+        background-color: white;
+        color: rgb(0, 0, 0);
+        padding: 15px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 7px 10px;
+        border-radius: 20px; 
 }
