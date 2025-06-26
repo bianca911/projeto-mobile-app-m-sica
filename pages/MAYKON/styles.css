@@ -1,11 +1,4 @@
 
-.num{
-    background: linear-gradient(to bottom, rgb(255, 255, 255), purple);
-    margin: 0;
-    height: 100vh;
-    font-family: arial, sans-serif;
-    color: rgb(234, 234, 234);
-}
 body{
     background: linear-gradient(to bottom, rgb(146, 8, 146), rgb(0, 0, 0));
     margin: 0;
@@ -14,15 +7,36 @@ body{
     color: rgb(228, 228, 228);
     display: flex;
     flex-direction: column;
-    align-items: left;
-    height: 100vh;
-}
-.input-group{
-    color: yellow;
-}
+    align-items: left;    height: 100vh;
+    }
+    
+.pesquisa button{
+        color: rgb(0, 0, 0);
+        background-color: #CCF656;
+        display: flex;
+        width: 390px;
+        height: 50px;
+        border-radius: 50px;
+        margin:  10px;
+        align-items: center;
+        border: #b4b4b4;
+    }
 
+.rosa button{
+        color: rgb(0, 0, 0);
+        background-color: #dd28ac;
+        border: #b4b4b4;
+        display: flex;
+        width: 390px;
+        height: 600px;
+        border-radius: 50px;
+        margin:  10px;
+        align-items: center;
+    }
+button {
 
-.icon {
-    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 22px;
 }
-
