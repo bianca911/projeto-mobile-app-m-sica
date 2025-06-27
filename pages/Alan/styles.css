@@ -111,4 +111,57 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -1px; 
+}
+.aa {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #DEDEDE;
+    display: flex;
+    gap: 30px;
+    margin-top: -30px;
+    padding-left: 55px;
+}
+.music {
+    display: flex;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.slk {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #DEDEDE;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.jiluka {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    display: flex;
+    margin-top: -22px;
+    margin-left: 115px;
+    align-items: center;
+    color: #B4B4B4;
+}
+.ic {
+    color: #E689C1;
+    display: flex;
+    margin-left: 150px;
+    margin-top: -10px;
+}
+.bunda4 {
+    color: #000000;
+    display: flex;
+    margin-left: 150p
+}
+.bunda4 {
+    color: #9D9D9D;
+    margin-left: 20px;
 }
