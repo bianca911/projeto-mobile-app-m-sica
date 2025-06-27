@@ -110,4 +110,28 @@ align-items:end;
 color: 18461A;
 }
 
+.img-playlists{
+    display: flex;
+    padding-left: 15px;
+    flex-direction: row;
+    margin-top: 20px;
+}
 
+.dowload{
+    color: #CCF656;
+    
+}
+
+.playlist-nomes{
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 15px;
+  }
+  
+
+  .tag{
+    color: #F230AA;
+  }
