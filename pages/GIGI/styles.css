@@ -75,15 +75,23 @@ body{
 }
 
 .nome-música{
+    margin-top: 15px;
     font-size:15px;
     padding-right: 5px;
     color: white;
 }
 
 .cantora{
+    margin-top: 15px;
     font-size:10px;
     color: #CCF656;
 }
+
+ .play{
+    color: white;
+    padding-left: 110px;
+   
+ }
 
 .container{
     margin-top: 15px;
@@ -114,18 +122,17 @@ color: 18461A;
     display: flex;
     padding-left: 15px;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-.dowload{
-    color: #CCF656;
-    
+.maikizord{
+    font-size: 15px;
 }
 
 .playlist-nomes{
     color: white;
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 5px;
     font-family: "Itim", cursive;
     font-style: normal;
     font-size: 15px;
@@ -134,4 +141,39 @@ color: 18461A;
 
   .tag{
     color: #F230AA;
+  }
+
+  .nome-playlist p{
+    color: white;
+    font-size: 12px;
+    padding-right: 20px;
+  }
+
+ .artistas-seguidos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+
+}
+  .artistas-seguidos p{
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  .artistas-seguidos img{
+    width:35px ;
+    height:35px;
+    border-radius: 50px;
+  }
+  
+  .icon{
+    color: #CCF656;
+    
   }
