@@ -6,7 +6,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
-    height: 100vh;
 }
 .img-fluid {
     margin: 10px;
@@ -164,4 +163,79 @@ body {
 .bunda4 {
     color: #9D9D9D;
     margin-left: 20px;
+}
+.music2 {
+    margin-top: 10px;
+    padding-left: 20px;
+    display: flex;
+}
+.bunda5 {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #DEDEDE;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.ia {
+    color: #94C3E9;
+    display: flex;
+    margin-left: 172px;
+    margin-top: -10px;
+}
+.bunda6 {
+    color: #9D9D9D;
+    display: flex;
+    margin-left: 20px;
+    
+}
+.jiluka2 {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    display: flex;
+    margin-top: -22px;
+    margin-left: 115px;
+    align-items: center;
+    color: #B4B4B4;
+}
+.music3 {
+    margin-top: 10px;
+    padding-left: 20px;
+    display: flex;
+}
+.bunda7 {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #DEDEDE;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.ia2 {
+    color: #AE3281;
+    display: flex;
+    margin-left: 171px;
+    margin-top: -10px;
+}
+.bunda8 {
+    color: #9D9D9D;
+    display: flex;
+    margin-left: 19px;
+}
+.jiluka3 {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    display: flex;
+    margin-top: -22px;
+    margin-left: 115px;
+    align-items: center;
+    color: #B4B4B4;
 }
