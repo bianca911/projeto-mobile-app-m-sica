@@ -5,16 +5,17 @@
         padding: 15px;
     }
     h1{
-        font-size: 1.3rem;
+        font-size: 2.0rem;
     }
     h2{
-        font-size: 1.1rem;
+        font-size: 2.0rem;
+        color: white;
     }
     .music, discovery-item {
         padding: 0.6rem;
     }
     :root {
-        --album-size: 50px;
+        --music-size: 50px;
         --discovery-album-size: 100px;
     }
     .discovery-list {
