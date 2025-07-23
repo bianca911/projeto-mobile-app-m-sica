@@ -1,9 +1,22 @@
+:root {
+    --text-color: white;
+    --background: #1e1e1e;
+    --section-bg: #252526;
+    --divider-color: #3e3e42;
+    --highlight-color: #569cd6;
+    --album-size: 60px;
+    --discovery-album-size: 120px;
+ }
 
 body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: black !important;  
+    background-color: #09041B !important;  
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .superior{
@@ -53,17 +66,132 @@ body{
 }
 
 h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
     color: white;
 }
 
 .music{
-    background-color: #F230AA;
-    width: 374px ;
-    height: 189px;
-    border-radius: 20px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    background-color: #891C69;
+    border-radius: 6px;
+    transition:  0.2s;
+    gap: 15px;
 }
+.music:hover{
+    transform: translateX(5px);
+}
+
+
+.musica1{
+    border-radius: 6px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 8, 0, 0.2);
+}
+.musica1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.musica1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+}
+.music-infor{
+    flex-grow: 1;
+}
+.music-titulo{
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+.music-art{
+    color: #a0a0a0;
+    font-size: 0.9rem;
+}
+
+.musica2 img{
+    width: 50px;
+    border-radius: 6px;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 8px rgba(0, 8, 0, 0.2);
+}
+
+.musica3 img{
+    width: 50px;
+    border-radius: 6px;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 8px rgba(0, 8, 0, 0.2);
+}
+
+.h2{
+    font-size: 1.2rem;
+    margin: 1.5rem 0 1rem;
+    color: white; 
+    padding-bottom: 0.5rem;;
+}
+.dicovery-list{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+}
+.discovery-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    background-color: #891C69;
+    border-radius: 6px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.musica4 img{
+    width: 175px;
+    border-radius: 6px;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 8px rgba(0, 8, 0, 0.2);
+}
+.musica5 img{
+    width: 175px;
+    border-radius: 6px;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 8px rgba(0, 8, 0, 0.2);
+}
+
+
+
+
+
+
 
 .botão-nav{
     margin-top: 20px;
@@ -71,4 +199,4 @@ h1{
     width: 90px;
     height:40px ;
     padding: 10px;
-    }
+  }
