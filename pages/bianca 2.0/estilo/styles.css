@@ -194,8 +194,26 @@ h1{
     box-shadow: 0 4px 8px rgba(0, 8, 0, 0.2);
 }
 
+ audio {
+    width: 100%;
+    margin-top: 10px;
+}
 
+.loading, .error {
+    text-align: center;
+    padding: 20px;
+    color: #569cd6;
+}
 
+button {
+    background-color: #569cd6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
 
 
 
