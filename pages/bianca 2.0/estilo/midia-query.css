@@ -9,7 +9,7 @@
     }
     h2{
         font-size: 2.0rem;
-        color: white;
+        color: white !important;
     }
     .music, discovery-item {
         padding: 0.6rem;
