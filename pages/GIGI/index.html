@@ -10,11 +10,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="media-query.css">
   <title>biblioteca</title>
 </head>
 
 <body>
-
+  <script src="script.js"></script>
+  
   <div class="botões">
     <button type="button" class="playlist">Playlist</button>
     <button type="button" class="album">album</button>
@@ -34,16 +36,11 @@
   </div>
   </div>
 
-  <div class="pesquisa">
-    <button type="button">pesquisar
-      <div class="icon-pesquisa">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-          <path
-            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-        </svg>
-      </div>
-    </button>
-  </div>
+  <div class="search-container">
+    <input type="text" class="search-input" placeholder="artista/música">
+    <button class="search-button">Buscar</button>
+</div>
+
 
 <div class="conjunto-playlists">
 <div class="img-playlists">
@@ -84,9 +81,9 @@
 </div>
 
 
-<div class="artistas-seguidos">
+<div class="artistas-seguidos" >
 <p>Artistas seguidos</p>
-<img class="img" src="assets/jiluka.png" >
+<a href="../Alan/index.html"><img class="img" src="assets/jiluka.png" ></a>
 <img class="img" src="assets/LeeSserafim.png">
 <img class="img" src="assets/Lady-Gaga.png">
 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
