@@ -4,32 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela inicial</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo/styles.css">
+    <link rel="stylesheet" href="estilo/midia-query.css">
+    
 </head>
 <body>
-     
+<link rel="stylesheet" href="script.js">
     <div class="superior">
         <img src="./assets/image (1).png" alt="Perfil" style="width: 10%;">
-        <button type="button" class="tudo">Tudo</button>
-        <button type="button" class="musicas">Músicas</button>
-        <button type="button" class="podcast">Podcasts</button>
-        <div class="config">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
-                <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
-                <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"/>
-              </svg>
+            <button type="button" class="tudo">Tudo</button>
+            <button type="button" class="musicas">Músicas</button>
+            <button type="button" class="podcast">Podcasts</button>
 
-        </div>
     </div>
 
     <h1>Últimas ouvidas</h1>
-
-
-
-
-
-
+    <div class="music">
+        <div class="musica1"> <img src="./assets/Artist_ Arctic Monkeys Title_ AM Label_ Domino… 1 (1).png" alt="Arabelle"></div>
+        <div class="music-infor">
+            <div class="music-titulo">Arabelle</div>
+            <div class="music-art">Arctic Monkeys</div>
+        </div>
+    </div>
+    
+    <div class="music">
+        <div class="musica2"> <img src="./assets/baixados (15).png" alt="Wildflower"></div>
+        <div class="music-infor">
+            <div class="music-titulo">Wildflower</div>
+            <div class="music-art">Billie Eilish</div>
+        </div>
+    </div>
+    
+    <div class="music">
+        <div class="musica3"> <img src="./assets/baixados (16).png" alt="Stabbing In The Dark"></div>
+        <div class="music-infor">
+            <div class="music-titulo">Stabbing In The Dark</div>
+            <div class="music-art">Ice Nine Kills</div>
+        </div>
+    </div>
+    
+    
+    <section id="descobertas">
+        <h2>Descobertas para você</h2>
+        <ul class="discovery-container" id="music-container">
+            <li class="discovery-item">
+                <div class="musica4"> <img src="./assets/mount eerie by the microphones (2003) 1.png" alt="Mount Eerie"></div>
+                <div class="music-infor">
+                    <div class="music-titulo">Mount Eerie</div>
+                    <div class="music-art">The Microphones</div>
+                </div>
+            </li>
+    
+            <li class="discovery-item">
+                <div class="musica5"> <img src="./assets/X’s - Cigarettes After Sex 1.png" alt="X's"></div>
+                <div class="music-infor">
+                    <div class="music-titulo">X's</div>
+                    <div class="music-art">Cigarettes After Sex</div>
+                </div>
+            </li>
+        </ul>   
+        <div class="loading">Carregando músicas...</div>
+    </section>
+    
+<script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media (max-width: 600px) {
+    body{
+        padding: 15px;
+    }
+    h1{
+        font-size: 2.0rem;
+    }
+    h2{
+        font-size: 2.0rem;
+        color: white;
+    }
+    .music, discovery-item {
+        padding: 0.6rem;
+    }
+    :root {
+        --music-size: 50px;
+        --discovery-album-size: 100px;
+    }
+    .discovery-list {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 15px;
+    }
+}
