@@ -54,3 +54,14 @@ body {
 .img2 {
     margin-left: 20px;
 }
+.toq {
+  justify-content: center;
+  display: flex;
+  color: white;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.toq1 {
+    transform: scaleX(-1);
+    
+}
