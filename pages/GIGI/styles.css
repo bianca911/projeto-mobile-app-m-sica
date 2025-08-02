@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #121212 !important;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@ body{
 }
 
 .botões {
-   
+
     margin: 15px;
     display: flex;
     flex-direction: row;
@@ -54,7 +54,7 @@ body{
 
 
 .retangulo-melanie {
-    margin-top: 0!important;
+    margin-top: 0 !important;
     margin: 10px;
     width: 341px;
     height: 59px;
@@ -65,130 +65,40 @@ body{
     align-items: center;
     padding: 10px;
     gap: 2px;
-    
+
 }
 
-.img-melanie{
+.img-melanie {
     width: 48px;
     height: 48px;
     border-radius: 9px;
 }
 
-.nome-música{
+.nome-música {
     margin-top: 15px;
-    font-size:15px;
+    font-size: 15px;
     padding-right: 5px;
     color: white;
 }
 
-.cantora{
+.cantora {
     margin-top: 15px;
-    font-size:10px;
+    font-size: 10px;
     color: #CCF656;
 }
 
- .play{
+.play {
     color: white;
     padding-left: 110px;
-   
- }
-
-.container{
-    margin-top: 15px;
-}
-
-
-.pesquisa button{
-background-color: #CCF656;
-display: flex;
-width: 359px;
-height: 43px;
-border-radius: 50px;
-margin: 5px;
-align-items: center;
-font-size: 12px;
-padding-left: 10px ;
 
 }
 
-.icon-pesquisa {
-padding-left: 270px;
-display: flex;
-align-items:end;
-color: 18461A;
-}
-
-.img-playlists{
-    display: flex;
-    padding-left: 15px;
-    flex-direction: row;
+.container {
     margin-top: 10px;
 }
 
-.maikizord{
-    font-size: 15px;
-}
 
-.playlist-nomes{
-    color: white;
-    font-family: Arial, sans-serif;
-    margin: 3px;
-    font-family: "Itim", cursive;
-    font-style: normal;
-    font-size: 15px;
-  }
-  
-  .tag{
-    color: #F230AA;
-  }
-
-  .nome-playlist p{
-    color: white;
-    font-size: 12px;
-    padding-right: 20px;
-  }
-
- .artistas-seguidos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin-top: 9px;
-    gap: 10px;
-
-}
-  .artistas-seguidos p{
-    color: white;
-    font-family: Arial, sans-serif;
-    margin-top: 30px;
-    font-family: "Itim", cursive;
-    font-style: normal;
-    font-size: 15px;
-  }
-
-  .artistas-seguidos img{
-    width:30px ;
-    height:30px;
-    border-radius: 50px;
-  }
-  
-  .icon{
-    color: #CCF656;
-  }
-
-  .navbar{
-    margin-top: 10px;
-  }
-
-  .botão-nav{
-    margin-top: 2px;
-    color: white;
-    width: 90px;
-    height:40px ;
-    padding: 10px;
-  }
-  
-  .search-container {
+.search-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,7 +106,7 @@ color: 18461A;
     border-radius: 50px;
     width: 10px;
     height: auto;
-    
+
 }
 
 .search-input {
@@ -222,4 +132,137 @@ color: 18461A;
 
 .search-button:hover {
     background-color: #a0d23c;
+}
+
+.img-playlists {
+    display: flex;
+    padding-left: 15px;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.maikizord {
+    font-size: 15px;
+}
+
+.playlist-nomes {
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 3px;
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.tag {
+    color: #F230AA;
+}
+
+.nome-playlist p {
+    color: white;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.artistas-seguidos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 9px;
+    gap: 10px;
+
+}
+
+.artistas-seguidos p {
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 15px;
+    font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.artistas-seguidos img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.icon {
+    color: #CCF656;
+}
+
+.navbar {
+    margin-top: 0px;
+}
+
+.botão-nav {
+    margin-top: 2px;
+    color: white;
+    width: 90px;
+    height: 40px;
+    padding: 10px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    animation: pulse 1.5s infinite;
+    color: #CCF656;
+}
+
+.warning-message {
+    color: #F230AA;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.6;
+    }
+}
+
+.song-info img {
+    border-radius: 8px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.deezer-link {
+    white-space: nowrap;
+    background-color: #CCF656;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 10px 10px;
+    margin-bottom: 2rem;
+}
+
+.song {
+    font-size: 20px;
+    color: #F230AA;
+    padding: 4px;
+    margin-right: 2px;
+}
+
+.prev-and-next-container {
+    color: #F230AA;
+}
+
+.prev-and-next-container button {
+    color: #000000;
+    background-color: #CCF656;
+    border-radius: 20px;
+    padding: 10px 20px;
 }

@@ -15,109 +15,123 @@
 </head>
 
 <body>
-  <script src="script.js"></script>
-  
+
   <div class="botões">
     <button type="button" class="playlist">Playlist</button>
     <button type="button" class="album">album</button>
     <button type="button" class="podcast">podcast</button>
     <button type="button" class="criar">+ CRIAR</button>
   </div>
- 
+
   <div class="retangulo-melanie">
     <img src="assets/música-melanie.png" class="img-melanie">
     <p class="nome-música">DEATH</p>
     <P class="cantora">Melanie Martinez</P>
-    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
-    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/></svg>
-    
-  </div>
+    <div class="play"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+        class="bi bi-play-fill" viewBox="0 0 16 16">
+        <path
+          d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+      </svg>
+
+    </div>
   </div>
   </div>
   </div>
 
-  <div class="search-container">
-    <input type="text" class="search-input" placeholder="artista/música">
+  <form class="search-container" id="form">
+    <input id="search" class="search-input" placeholder="buscar letras...">
     <button class="search-button">Buscar</button>
-</div>
+  </form>
+
+  <ul id="songs-container" class="songs-container songs">
+  </ul>
+
+  <div id="prev-and-next-container" class="prev-and-next-container"></div>
+
+  <div class="conjunto-playlists">
+    <div class="img-playlists">
+      <img src="assets/Pingo.png" width=102px height=102px>
+
+      <div class="playlist-nomes">
+        <h1 class="maikizord">Playlist - Estoura ouvido</h1>
+        <div class="tag"># Aespa</div>
+        <div class="tag"># XG</div>
+        <div class="tag"># Lee Sserafim</div>
+      </div>
+
+    </div>
+
+    <div class="img-playlists">
+      <img src="assets/shinji.png" width=102px height=102px>
 
 
-<div class="conjunto-playlists">
-<div class="img-playlists">
-  <img src="assets/Pingo.png"width=102px height=102px> 
+      <div class="playlist-nomes">
+        <h1 class="maikizord">Playlist - Saúdavel</h1>
+        <div class="tag"># TvGirl</div>
+        <div class="tag"># Mitski</div>
+        <div class="tag"># My Chermical Romance</div>
+      </div>
+    </div>
 
-  <div class="playlist-nomes">
-  <h1 class="maikizord">Playlist - Estoura ouvido</h1>
-      <div class="tag"># Aespa</div>
-      <div class="tag"># XG</div>
-      <div class="tag"># Lee Sserafim</div>
+    <div class="img-playlists">
+      <img src="assets/peach.png" width=102px height=102px>
+
+
+      <div class="playlist-nomes">
+        <h1 class="maikizord">Playlist - Baladinha Clean</h1>
+        <div class="tag"># TheWeeknd</div>
+        <div class="tag"># MTG</div>
+        <div class="tag"># Automotivo</div>
+      </div>
+    </div>
   </div>
-  
-</div>
-
-<div class="img-playlists">
-  <img src="assets/shinji.png"width=102px height=102px> 
 
 
-  <div class="playlist-nomes">
-  <h1 class="maikizord">Playlist - Saúdavel</h1>
-      <div class="tag"># TvGirl</div>
-      <div class="tag"># Mitski</div>
-      <div class="tag"># My Chermical Romance</div>
+  <div class="artistas-seguidos">
+    <p>Artistas seguidos</p>
+    <a href="../Alan/index.html"><img class="img" src="assets/jiluka.png"></a>
+    <img class="img" src="assets/LeeSserafim.png">
+    <img class="img" src="assets/Lady-Gaga.png">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus"
+      viewBox="0 0 16 16">
+      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+    </svg>
   </div>
-</div>
 
-<div class="img-playlists">
-  <img src="assets/peach.png"width=102px height=102px> 
+  <div class="navbar">
 
+    <a href="../bianca 2.0/index.html"><svg class="botão-nav" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+        fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+        <path
+          d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+      </svg></a>
 
-  <div class="playlist-nomes">
-  <h1 class="maikizord">Playlist - Baladinha Clean</h1>
-      <div class="tag"># TheWeeknd</div>
-      <div class="tag"># MTG</div>
-      <div class="tag"># Automotivo</div>
+    <a href="../MAYKON/index.html"><svg class="botão-nav" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+        fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path
+          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+      </svg></a>
+
+    <a href="../GIGI/index.html"><svg class="botão-nav" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+        fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+        <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2" />
+        <path fill-rule="evenodd" d="M12 3v10h-1V3z" />
+        <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1z" />
+        <path fill-rule="evenodd"
+          d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5m0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5m0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5" />
+      </svg></a>
+
+    <a href="../page6/index.html"><svg class="botão-nav" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+        fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+        <path fill-rule="evenodd"
+          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+      </svg></a>
   </div>
-</div>
-</div>
-
-
-<div class="artistas-seguidos" >
-<p>Artistas seguidos</p>
-<a href="../Alan/index.html"><img class="img" src="assets/jiluka.png" ></a>
-<img class="img" src="assets/LeeSserafim.png">
-<img class="img" src="assets/Lady-Gaga.png">
-<svg class="icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
-  <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
-</svg>
-</div>
-
-<div class="navbar">
-  
-  <a href="../bianca 2.0/index.html"><svg class="botão-nav" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
-    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
-  </svg></a>
-
-  <a href="../MAYKON/index.html"><svg class="botão-nav" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-  </svg></a>
-
-  <a href="../GIGI/index.html"><svg class="botão-nav" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
-    <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2"/>
-    <path fill-rule="evenodd" d="M12 3v10h-1V3z"/>
-    <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1z"/>
-    <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5m0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5m0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5"/>
-  </svg></a>
-
-  <a href="../page6/index.html"><svg class="botão-nav" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-  </svg></a>
-
-
-</div>
 
 
 
-
+  <script src="./script.js"></script>
 </body>
+
 </html>
