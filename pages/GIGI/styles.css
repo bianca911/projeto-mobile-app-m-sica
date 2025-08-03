@@ -266,3 +266,168 @@ body {
     border-radius: 20px;
     padding: 10px 20px;
 }
+
+@media screen and (min-width: 1024px) {
+
+    body {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+
+    .botões {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 900px;
+        margin: 20px auto 10px auto;
+        gap: 10px;
+    }
+
+    .playlist,
+    .album,
+    .podcast,
+    .criar {
+        font-size: 14px;
+        width: 110px;
+        height: 40px;
+    }
+
+    .retangulo-melanie {
+        width: 100%;
+        max-width: 900px;
+        margin: 10px auto;
+        padding: 15px 30px;
+        background-color: #F230AA;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .img-melanie {
+        width: 48px;
+        height: 48px;
+        border-radius: 9px;
+    }
+
+    .nome-música {
+        font-size: 18px;
+        color: white;
+    }
+
+    .cantora {
+        font-size: 12px;
+        color: #CCF656;
+    }
+
+    .play {
+        margin-left: auto;
+        color: white;
+    }
+
+    .search-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 900px;
+        margin: 10px auto 30px auto;
+        gap: 10px;
+        padding: 0 20px;
+    }
+
+    .search-input {
+        flex: 1;
+        height: 45px;
+        padding: 0 20px;
+        font-size: 16px;
+        border-radius: 50px;
+        border: none;
+    }
+
+    .search-button {
+        height: 45px;
+        padding: 0 25px;
+        background-color: #CCF656;
+        border: none;
+        border-radius: 50px;
+        color: black;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .search-button:hover {
+        background-color: #a0d23c;
+    }
+
+    .conjunto-playlists {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 30px;
+        max-width: 1100px;
+        width: 100%;
+    }
+
+    .img-playlists {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        background-color: #1f1f1f;
+        padding: 15px;
+        border-radius: 15px;
+        width: 320px;
+    }
+
+    .playlist-nomes {
+        color: white;
+        font-family: "Itim", cursive;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .tag {
+        color: #F230AA;
+    }
+
+    .artistas-seguidos {
+        margin-top: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    .artistas-seguidos p {
+        font-size: 16px;
+        color: white;
+        font-family: "Itim", cursive;
+    }
+
+    .navbar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #121212;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .botão-nav {
+        width: 30px;
+        height: 30px;
+        color: white;
+        padding: 4px;
+
+    }
+}
