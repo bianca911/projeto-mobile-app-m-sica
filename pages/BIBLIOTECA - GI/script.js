@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const songsContainer = document.getElementById('songs-container');
     const prevAndNextContainer = document.getElementById('prev-and-next-container');
 
-
     const API_OPTIONS = {
         primary: {
             url: 'https://api.deezer.com/search/album?q=',
@@ -21,6 +20,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const itemsPerPage = 10;
     let currentSearchTerm = '';
     let currentApi = API_OPTIONS.primary;
+
+
+    function manageFocus(element) {
+        if (element) {
+            element.focus();
+        } else {
+            searchInput.focus();
+        }
+    }
 
     async function fetchAlbums(searchTerm, index = 0) {
         try {
@@ -42,6 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             processApiResponse(data, index);
+            manageFocus(songsContainer.firstElementChild);
 
         } catch (error) {
             console.error('Erro na API:', error);
@@ -50,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function showLoading() {
-        songsContainer.innerHTML = '<li class="loading">Buscando álbuns...</li>';
+        songsContainer.innerHTML = '<li class="loading" aria-live="polite">Buscando álbuns...</li>';
         prevAndNextContainer.innerHTML = '';
     }
 
@@ -72,21 +81,22 @@ document.addEventListener('DOMContentLoaded', function () {
             fetchAlbums(currentSearchTerm, currentPage);
         } else {
             songsContainer.innerHTML = `
-                <li class="warning-message">
+                <li class="warning-message" aria-live="assertive">
                     Falha na conexão. Erro: ${error.message}<br>
                     Tente novamente mais tarde
                 </li>
             `;
             prevAndNextContainer.innerHTML = '';
+            manageFocus(searchInput);
         }
     }
 
     function displayAlbums(albums) {
         songsContainer.innerHTML = albums.map(album => `
-            <li class="song">
+            <li class="song" aria-label="Álbum ${album.title || album.collectionName} de ${album.artist?.name || album.artistName}">
                 <div class="song-info">
                     <img src="${album.cover_medium || album.artworkUrl100.replace('100x100', '300x300')}" 
-                         alt="${album.title || album.collectionName}" 
+                         alt="Capa do álbum ${album.title || album.collectionName}" 
                          width="80" height="80">
                     <div>
                         <span class="song-artist">${album.artist?.name || album.artistName}</span>
@@ -95,7 +105,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 </div>
                 <a href="${album.link || album.collectionViewUrl}" 
                    target="_blank" 
-                   class="deezer-link">
+                   class="deezer-link"
+                   aria-label="Ouvir ${album.title || album.collectionName} no ${currentApi === API_OPTIONS.primary ? 'Deezer' : 'iTunes'}">
                    ${currentApi === API_OPTIONS.primary ? 'Ouvir no Deezer' : 'Ver no iTunes'}
                 </a>
             </li>
@@ -107,13 +118,15 @@ document.addEventListener('DOMContentLoaded', function () {
         const currentPageNumber = Math.floor(index / itemsPerPage) + 1;
 
         prevAndNextContainer.innerHTML = `
-            <button ${index === 0 ? 'disabled' : ''} 
-                    onclick="goToPage(${index - itemsPerPage})">
+            <button ${index === 0 ? 'disabled aria-disabled="true"' : ''} 
+                    onclick="goToPage(${index - itemsPerPage})"
+                    aria-label="Página anterior">
                 Anterior
             </button>
-            <span>Página ${currentPageNumber} de ${totalPages}</span>
-            <button ${index + itemsPerPage >= totalResults ? 'disabled' : ''} 
-                    onclick="goToPage(${index + itemsPerPage})">
+            <span aria-live="polite">Página ${currentPageNumber} de ${totalPages}</span>
+            <button ${index + itemsPerPage >= totalResults ? 'disabled aria-disabled="true"' : ''} 
+                    onclick="goToPage(${index + itemsPerPage})"
+                    aria-label="Próxima página">
                 Próxima
             </button>
         `;
@@ -128,8 +141,15 @@ document.addEventListener('DOMContentLoaded', function () {
             currentPage = 0;
             fetchAlbums(currentSearchTerm, currentPage);
         } else {
-            songsContainer.innerHTML = '<li class="warning-message">Digite um artista para buscar</li>';
+            songsContainer.innerHTML = '<li class="warning-message" aria-live="assertive">Digite um artista para buscar</li>';
             prevAndNextContainer.innerHTML = '';
+            manageFocus(searchInput);
+        }
+    });
+
+    searchInput.addEventListener('keyup', function (e) {
+        if (e.key === 'Enter') {
+            form.dispatchEvent(new Event('submit'));
         }
     });
 
