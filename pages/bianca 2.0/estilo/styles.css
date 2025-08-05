@@ -17,6 +17,7 @@ body{
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
+    padding-bottom: 80px;
 }
 
 .superior{
@@ -141,10 +142,15 @@ h1{
     box-shadow: 0 4px 8px rgba(0, 8, 0, 0.2);
 }
 
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 .h2{
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: white ;
+    color: white !important;
 }
 .discovery-container{
     display: grid;
@@ -194,39 +200,101 @@ h1{
     box-shadow: 0 4px 8px rgba(0, 8, 0, 0.2);
 }
 
-audio {
-    width: 100%;
-    margin-top: 10px;
+
+.discovery-container {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+        margin-bottom: 80px;
+}
+    
+.discovery-item {
+        background: #5d2d50;
+        border-radius: 10px;
+        padding: 15px;
+        transition: transform 0.3s ease;
+}
+    
+.discovery-item:hover {
+        transform: translateY(-5px);
+        background: rgba(255, 255, 255, 0.1);
+}
+    
+.discovery-item img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+}
+    
+.music-titulo {
+        font-weight: bold;
+        color: white;
+        margin-bottom: 5px;
+}
+    
+.music-art {
+        color: #aaa;
+        font-size: 0.9em;
+}
+    
+.loading {
+        text-align: center;
+        padding: 20px;
+        color: #aaa;
+        font-style: italic;
+}
+.error-message {
+        color: #ff6b6b;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+        background: rgba(255, 107, 107, 0.1);
+        border-radius: 5px;
 }
 
-.loading, .error {
-    text-align: center;
-    padding: 20px;
-    color: white;
-}
-
-button {
-    background-color: #F230AA;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-.navbar{
+.navbar {
     margin-top: 80px;
-    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
 }
 
-.botão-nav{
-    margin-top: 2px;
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    width: 90%;
+    padding-bottom: 80px;
+}
+
+.navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+
+.botão-nav {
     color: white;
-    width: 50px;
-    height: 30px;
-    padding: 10px;
-  }
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease;
+}
+
 
 
 

@@ -1,47 +1,75 @@
-
-        document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', function() {
     const container = document.getElementById('music-container');
+    const loading = document.querySelector('.loading');
+    const errorMsg = document.querySelector('.error-message');
     
-    try {
- 
-        const response = await fetch('https://api.allorigins.win/get?url=' + 
-            encodeURIComponent('https://api.deezer.com/chart/0/tracks?limit=2'));
-        
-        if (!response.ok) {
-            throw new Error(`Erro HTTP: ${response.status}`);
+    
+    async function fetchTopTracks() {
+        try {
+            
+            const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+            const apiUrl = 'https://api.deezer.com/artist/27/top?limit=2';
+            
+            const response = await fetch(proxyUrl + apiUrl, {
+                headers: {
+                    'X-Requested-With': 'XMLHttpRequest'
+                }
+            });
+            
+            if (!response.ok) throw new Error('API não disponível');
+            
+            const data = await response.json();
+            
+            if (data.error) throw new Error(data.error.message);
+            
+            displayTracks(data.data);
+            loading.style.display = 'none';
+            
+        } catch (error) {
+            console.error('Erro:', error);
+            loading.style.display = 'none';
+            errorMsg.textContent = 'Não foi possível carregar as descobertas. Mostrando recomendações padrão.';
+            errorMsg.style.display = 'block';
+            showDefaultContent();
         }
-        
-        const data = await response.json();
-        const tracks = JSON.parse(data.contents).data;
-        
-
-        container.innerHTML = '';
-        
-        tracks.forEach(track => {
-            const musicItem = document.createElement('div');
-            musicItem.className = 'discovery-item';
-            musicItem.innerHTML = `
+    }
+    
+    function displayTracks(tracks) {
+        container.innerHTML = tracks.map(track => `
+            <li class="discovery-item">
                 <div class="musica">
-                    <img src="${track.album.cover_medium}" 
-                         alt="Capa do álbum ${track.album.title}"
-                         onerror="this.src='./assets/default-album.png'">
+                    <img src="${track.album.cover_medium}" alt="${track.title}" onerror="this.src='./assets/default-music.png'">
                 </div>
                 <div class="music-infor">
-                    <div class="music-titulo">${track.title}</div>
+                    <div class="music-titulo">${track.title_short}</div>
                     <div class="music-art">${track.artist.name}</div>
-                    <audio controls src="${track.preview}"></audio>
                 </div>
-            `;
-            container.appendChild(musicItem);
-        });
-        
-    } catch (error) {
-        console.error('Erro ao carregar músicas:', error);
+            </li>
+        `).join('');
+    }
+    
+    function showDefaultContent() {
         container.innerHTML = `
-            <div class="error">
-                Não foi possível carregar as músicas.
-                <button onclick="window.location.reload()">Tentar novamente</button>
-            </div>
+            <li class="discovery-item">
+                <div class="musica">
+                    <img src="./assets/mount eerie by the microphones (2003) 1.png" alt="Mount Eerie">
+                </div>
+                <div class="music-infor">
+                    <div class="music-titulo">Mount Eerie</div>
+                    <div class="music-art">The Microphones</div>
+                </div>
+            </li>
+            <li class="discovery-item">
+                <div class="musica">
+                    <img src="./assets/X's - Cigarettes After Sex 1.png" alt="X's">
+                </div>
+                <div class="music-infor">
+                    <div class="music-titulo">X's</div>
+                    <div class="music-art">Cigarettes After Sex</div>
+                </div>
+            </li>
         `;
     }
+    
+    fetchTopTracks();
 });
