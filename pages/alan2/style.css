@@ -65,3 +65,7 @@ body {
     transform: scaleX(-1);
     
 }
+#btn:active {
+    font-size: 23px;
+
+}
