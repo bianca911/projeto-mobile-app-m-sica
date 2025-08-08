@@ -78,11 +78,12 @@ Principais funcionalidades:
 
  #### TELA - modo responsivo
 
-![TELA RESPONSIVA](../projeto-mobile-app-m-sica/img.readme/TELA%20MOBILE%20-%20GI.png)
+![TELA RESPONSIVA](../projeto-mobile-app-m-sica/assets/TELA%20MOBILE%20-%20GI.png)
+
 
 #### TELA - modo desktop
 
-![TELA DESKTOP](../projeto-mobile-app-m-sica/img.readme/TELA%20DESKTOP%20-%20GI.png)
+![TELA DESKTOP](../projeto-mobile-app-m-sica/assets/TELA%20DESKTOP%20-%20GI.png)
 
 ---
 
@@ -90,14 +91,14 @@ Principais funcionalidades:
 ### API - implementação e resultado no front-end
 
 #### POSTMAN/ teste da API
-![TESTE NO POSTMAN](../projeto-mobile-app-m-sica/img.readme/TESTE%20NO%20POSTMAN%20-%20GI.png)
+![TESTE NO POSTMAN](../projeto-mobile-app-m-sica/assets/TESTE%20NO%20POSTMAN%20-%20GI.png)
 
 #### Os endpoints da API foram testados no Postman para validar seu funcionamento e as respostas retornadas. Isso garantiu que a API escolhida estivesse apresentando resultados e não possíveis erros que comprometesse a aplicação.
 
 ---
 
 #### RESULTADOS DA API/ front-end
-![RESULTADOS DA API](../projeto-mobile-app-m-sica/img.readme/RESULTADOS%20DA%20API%20-%20GI.png)
+![RESULTADOS DA API](../projeto-mobile-app-m-sica/assets/RESULTADOS%20DA%20API%20-%20GI.png)
 
 #### Após a implementação da API em JavaScript, o sistema retorna uma prévia de álbuns com base na pesquisa do usuário. Os resultados incluem:
 
@@ -112,19 +113,19 @@ Principais funcionalidades:
 #### Ao clicar no botão, redireciona o usuário para a página do álbum no iTunes, onde é possível ouvir uma prévia das faixas.
 
 #### Exemplo:
-![PREVIEW DE ÁLBUNS](../projeto-mobile-app-m-sica/img.readme/PREVIEW%20DO%20ÁLBUM%20-%20GI.png)
+![PREVIEW DE ÁLBUNS](../projeto-mobile-app-m-sica/assets/PREVIEW%20DO%20ÁLBUM%20-%20GI.png)
  
 
 #### No final dos resultados temos os botões de próximo e anterior para mais resultados!
 
-![ANTERIOR E PRÓXIMO](../projeto-mobile-app-m-sica/img.readme/ANTERIOR.PRÓXIMO%20-%20GI.png)
+![ANTERIOR E PRÓXIMO](../projeto-mobile-app-m-sica/assets/ANTERIOR.PRÓXIMO%20-%20GI.png)
 
 ---
 
 ### BOTÕES E FUNÇÕES
 
 #### Botões superiores e player de música
-![BOTÕES E PLAYER DE MÚSICA](../projeto-mobile-app-m-sica/img.readme/BOTÕES%20SUPERIORES%20-GI.png)
+![BOTÕES E PLAYER DE MÚSICA](../projeto-mobile-app-m-sica/assets/BOTÕES%20SUPERIORES%20-GI.png)
 
 #### Barra Superior - Navegação Principal
 - Playlists: Exibe as playlists criadas pelo usuário.
@@ -144,7 +145,7 @@ Principais funcionalidades:
 
  #### Barra de pesquisa e playlists
 
- ![BUSCA E PLAYLIST](../projeto-mobile-app-m-sica/img.readme/BUSCA%20E%20PLAYLISTS%20-GI.png)
+ ![BUSCA E PLAYLIST](../projeto-mobile-app-m-sica/assets/BUSCA%20E%20PLAYLISTS%20-GI.png)
 
 #### Botão de pesquisa
 
@@ -168,7 +169,7 @@ Principais funcionalidades:
 
 #### Artistas seguidos e navbar
 
-![ARTISTAS E NAVBAR](../projeto-mobile-app-m-sica/img.readme/ARTISTAS%20E%20NAVBAR-%20GI.png)
+![ARTISTAS E NAVBAR](../projeto-mobile-app-m-sica/assets/ARTISTAS%20E%20NAVBAR-%20GI.png)
 
 #### Artistas seguidos
 
@@ -198,9 +199,9 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 
 #### * As configuraçãos da API geram respostas de erro caso o usuário mande o formulário vazio ou digite um item inexistente/sem resultado.
 
-![ERRO 1](../projeto-mobile-app-m-sica/img.readme/MENSAGEM%20DE%20ERRO%201%20-%20GI.png)
+![ERRO 1](../projeto-mobile-app-m-sica/assets/MENSAGEM%20DE%20ERRO%201%20-%20GI.png)
 
-![ERRO 2](../projeto-mobile-app-m-sica/img.readme/MENSAGEM%20DE%20ERRO%202%20-%20GI.png)
+![ERRO 2](../projeto-mobile-app-m-sica/assets/MENSAGEM%20DE%20ERRO%202%20-%20GI.png)
 
 ---
 
