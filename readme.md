@@ -47,29 +47,28 @@ Principais funcionalidades:
 ## App em Funcionamento
 
 ### Tela 1 (login)
-![Print da Tela Inicial ](./imagens/tela-inicial.png)
+
 
 ### Resultados  
-![Print da Tela de Resultados](./imagens/tela-resultados.png)
+
 
 #### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 ---
 
 ### Tela 2 (página inicial)
-![Print da Tela Inicial](./imagens/tela-inicial.png)
+
 
 ### Resultados  
-![Print da Tela de Resultados](./imagens/tela-resultados.png)
 
 #### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
 ---
 
 ### Tela 3 (Área de pesquisa)
-![Print da Tela Inicial](./imagens/tela-inicial.png)
+
 
 ### Tela de Resultados  
-![Print da Tela de Resultados](./imagens/tela-resultados.png)
+
 
 #### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
@@ -92,7 +91,7 @@ Principais funcionalidades:
 ### API - implementação e resultado no front-end
 
 #### POSTMAN/ teste da API
-![TESTE NO POSSTMAN](../projeto-mobile-app-m-sica/assets/TESTE%20NO%20POSTMAN%20-%20GI.png)
+![TESTE NO POSTMAN](../projeto-mobile-app-m-sica/assets/TESTE%20NO%20POSTMAN%20-%20GI.png)
 
 #### Os endpoints da API foram testados no Postman para validar seu funcionamento e as respostas retornadas. Isso garantiu que a API escolhida estivesse apresentando resultados e não possíveis erros que comprometesse a aplicação.
 
@@ -207,30 +206,29 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 ---
 
 ### Tela 5 (Artista/Playlist por dentro)
-![Print da Tela Inicial](./imagens/tela-inicial.png)
+
 
 ### Tela de Resultados  
-![Print da Tela de Resultados](./imagens/tela-resultados.png)
+
 
 #### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
 ---
 
 ### Tela 6 (Reprodutor de música)
-![Print da Tela Inicial](./imagens/tela-inicial.png)
+
 
 ### Tela de Resultados  
-![Print da Tela de Resultados](./imagens/tela-resultados.png)
+
 
 #### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
 ---
 
 ### Tela 7 (Perfil do usuário)
-![Print da Tela Inicial](./imagens/tela-inicial.png)
+
 
 ### Tela de Resultados  
-![Print da Tela de Resultados](./imagens/tela-resultados.png)
 
 #### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
