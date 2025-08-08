@@ -46,22 +46,36 @@ Principais funcionalidades:
 
 ## App em Funcionamento
 
-### Tela 1 (login)
-![Print da Tela Inicial ](./imagens/tela-inicial.png)
+### Tela 1 (login-Bianca P.)
+![Print da Tela Inicial ](../projeto-mobile-app-m-sica/assets/tela_login.png)
 
-### Resultados  
-![Print da Tela de Resultados](./imagens/tela-resultados.png)
+### Tela em Modo responsivo  
+![Print da Tela em modo responsivo](../projeto-mobile-app-m-sica/assets/tela_login_responsivo.png)
 
-#### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
+## Descrição
+- Possui tela de autenticação com campos para usuário e senha, e
+opções para "Esqueci minha senha" e registro de novos usuários.
+
+## Para quais funcionalidades foi pensada
+- Foi pensada para possuir um Login seguro, link para recuperação de senha e redirecionamento para cadastro de novos membros.
+
+## Observações
+- O design foi feito pensado priorizando simplicidade e usuabilidade.
+
 ---
 
-### Tela 2 (página inicial)
-![Print da Tela Inicial](./imagens/tela-inicial.png)
+## Tela 2 (página inicial-Bianca P.)
+![Print da Tela Inicial](../projeto-mobile-app-m-sica/assets/tela_grande.png)
 
-### Resultados  
-![Print da Tela de Resultados](./imagens/tela-resultados.png)
+## Tela em Modo responsivo  
+![Print da Tela em modo responsivo](../projeto-mobile-app-m-sica/assets/tela_responsiva.png)
 
-#### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
+### Para quais funcionalidades foi pensada
+- Foi programado para apresentar histórico Personalizado que exibe as últimas músicas reproduzidas, e recomendações baseadas nas preferências do usuário.
+
+### Seções Principais
+### Campo Superior da Tela Inicial
+![Botões superiores] 
 
 ---
 
