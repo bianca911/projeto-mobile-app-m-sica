@@ -46,36 +46,22 @@ Principais funcionalidades:
 
 ## App em Funcionamento
 
-### Tela 1 (login-Bianca P.)
-![Print da Tela Inicial ](../projeto-mobile-app-m-sica/assets/tela_login.png)
+### Tela 1 (login)
+![Print da Tela Inicial ](./imagens/tela-inicial.png)
 
-### Tela em Modo responsivo  
-![Print da Tela em modo responsivo](../projeto-mobile-app-m-sica/assets/tela_login_responsivo.png)
+### Resultados  
+![Print da Tela de Resultados](./imagens/tela-resultados.png)
 
-## Descrição
-- Possui tela de autenticação com campos para usuário e senha, e
-opções para "Esqueci minha senha" e registro de novos usuários.
-
-## Para quais funcionalidades foi pensada
-- Foi pensada para possuir um Login seguro, link para recuperação de senha e redirecionamento para cadastro de novos membros.
-
-## Observações
-- O design foi feito pensado priorizando simplicidade e usuabilidade.
-
+#### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 ---
 
-## Tela 2 (página inicial-Bianca P.)
-![Print da Tela Inicial](../projeto-mobile-app-m-sica/assets/tela_grande.png)
+### Tela 2 (página inicial)
+![Print da Tela Inicial](./imagens/tela-inicial.png)
 
-## Tela em Modo responsivo  
-![Print da Tela em modo responsivo](../projeto-mobile-app-m-sica/assets/tela_responsiva.png)
+### Resultados  
+![Print da Tela de Resultados](./imagens/tela-resultados.png)
 
-### Para quais funcionalidades foi pensada
-- Foi programado para apresentar histórico Personalizado que exibe as últimas músicas reproduzidas, e recomendações baseadas nas preferências do usuário.
-
-### Seções Principais
-### Campo Superior da Tela Inicial
-![Botões superiores] 
+#### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
 ---
 
@@ -93,12 +79,12 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 
  #### TELA - modo responsivo
 
-<img src="../projeto-mobile-app-m-sica/assets/TELA MOBILE - GI.png" width= 170px>
+![TELE RESPONSIVA](../projeto-mobile-app-m-sica/assets/TELA%20MOBILE%20-%20GI.png)
 
 
 #### TELA - modo desktop
 
-<img src="../projeto-mobile-app-m-sica/assets/TELA DESKTOP - GI.png" width=290px>
+![TELA DESKTOP](../projeto-mobile-app-m-sica/assets/TELA%20DESKTOP%20-%20GI.png)
 
 ---
 
@@ -106,14 +92,14 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 ### API - implementação e resultado no front-end
 
 #### POSTMAN/ teste da API
-<img src="../projeto-mobile-app-m-sica/assets/TESTE NO POSTMAN - GI.png" width=290px>
+![TESTE NO POSSTMAN](../projeto-mobile-app-m-sica/assets/TESTE%20NO%20POSTMAN%20-%20GI.png)
 
 #### Os endpoints da API foram testados no Postman para validar seu funcionamento e as respostas retornadas. Isso garantiu que a API escolhida estivesse apresentando resultados e não possíveis erros que comprometesse a aplicação.
 
 ---
 
 #### RESULTADOS DA API/ front-end
-<img src="../projeto-mobile-app-m-sica/assets/RESULTADOS DA API - GI.png" width=200px>
+![RESULTADOS DA API](../projeto-mobile-app-m-sica/assets/RESULTADOS%20DA%20API%20-%20GI.png)
 
 #### Após a implementação da API em JavaScript, o sistema retorna uma prévia de álbuns com base na pesquisa do usuário. Os resultados incluem:
 
@@ -128,19 +114,19 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 #### Ao clicar no botão, redireciona o usuário para a página do álbum no iTunes, onde é possível ouvir uma prévia das faixas.
 
 #### Exemplo:
-<img src="../projeto-mobile-app-m-sica/assets/PREVIEW DO ÁLBUM - GI.png" width=400px>
+![PREVIEW DE ÁLBUNS](../projeto-mobile-app-m-sica/assets/PREVIEW%20DO%20ÁLBUM%20-%20GI.png)
  
 
 #### No final dos resultados temos os botões de próximo e anterior para mais resultados!
 
-<img src="../projeto-mobile-app-m-sica/assets/ANTERIOR.PRÓXIMO - GI.png" width= 200px>
+![ANTERIOR E PRÓXIMO](../projeto-mobile-app-m-sica/assets/ANTERIOR.PRÓXIMO%20-%20GI.png)
 
 ---
 
 ### BOTÕES E FUNÇÕES
 
 #### Botões superiores e player de música
-<img src="../projeto-mobile-app-m-sica/assets/BOTÕES SUPERIORES -GI.png" width=200px>
+![BOTÕES E PLAYER DE MÚSICA](../projeto-mobile-app-m-sica/assets/BOTÕES%20SUPERIORES%20-GI.png)
 
 #### Barra Superior - Navegação Principal
 - Playlists: Exibe as playlists criadas pelo usuário.
@@ -160,7 +146,7 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 
  #### Barra de pesquisa e playlists
 
- <img src="../projeto-mobile-app-m-sica/assets/BUSCA E PLAYLISTS -GI.png" width= 200px>
+ ![BUSCA E PLAYLIST](../projeto-mobile-app-m-sica/assets/BUSCA%20E%20PLAYLISTS%20-GI.png)
 
 #### Botão de pesquisa
 
@@ -184,7 +170,7 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 
 #### Artistas seguidos e navbar
 
-<img src="../projeto-mobile-app-m-sica/assets/ARTISTAS E NAVBAR- GI.png">
+![ARTISTAS E NAVBAR](../projeto-mobile-app-m-sica/assets/ARTISTAS%20E%20NAVBAR-%20GI.png)
 
 #### Artistas seguidos
 
@@ -212,10 +198,11 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 
 #### * Dentro do código html foi utilizado alguns códigos para melhorar a acessibilidade, algumas Interação em JavaScript (simples) e a indentação do código.
 
-#### * Possui respostas de erro no JavaScript caso o user digite algo errado ou não existente da API!
+#### * As configuraçãos da API geram respostas de erro caso o usuário mande o formulário vazio ou digite um item inexistente/sem resultado.
 
-<img src="../projeto-mobile-app-m-sica/assets/MENSAGEM DE ERRO 1 - GI.png">
-<img src="../projeto-mobile-app-m-sica/assets/MENSAGEM DE ERRO 2 - GI.png">
+![ERRO 1](../projeto-mobile-app-m-sica/assets/MENSAGEM%20DE%20ERRO%201%20-%20GI.png)
+
+![ERRO 2](../projeto-mobile-app-m-sica/assets/MENSAGEM%20DE%20ERRO%202%20-%20GI.png)
 
 ---
 
