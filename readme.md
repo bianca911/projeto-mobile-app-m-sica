@@ -46,29 +46,88 @@ Principais funcionalidades:
 
 ## App em Funcionamento
 
-### Tela 1 (login)
+### Tela 1 (login-Bianca P.)
+![Print da Tela Inicial ](./assets/tela_login.png)
 
+### Tela em Modo responsivo  
+![Print da Tela em modo responsivo](./assets/tela_login_responsivo.png)
 
-### Resultados  
+## Descrição
+- Possui tela de autenticação com campos para usuário e senha, e
+opções para "Esqueci minha senha" e registro de novos usuários.
 
+## Para quais funcionalidades foi pensada
+- Foi pensada para possuir um Login seguro, link para recuperação de senha e redirecionamento para cadastro de novos membros.
 
-#### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
+## Observações
+- O design foi feito pensado priorizando simplicidade e usuabilidade.
+
+## Problemas enfrentados durante projeto
+
+#### De forma geral, o maior problema enfrendato durante a codificação da página inicial, foi o gradiente utilizado no fundo. Por nunca ter feito algo mais complexo do que colocar uma imagem no fundo, o gradiente foi uma das minhas maiores dificuldades. Outro problema foi a centralização das *div's*, que foram resolvidos com o uso do *Flexbox*.
+
+### Solução para o gradiente de fundo
+
+![Solução](./assets/solução.png)
 ---
 
-### Tela 2 (página inicial)
+## Tela 2 (página inicial-Bianca P.)
+![Print da Tela Inicial](./assets/tela_grande.png)
 
+## Tela em Modo responsivo  
+![Print da Tela em modo responsivo](./assets/tela_responsiva.png)
 
-### Resultados  
+### Para quais funcionalidades foi pensada
+- Foi programado para apresentar histórico Personalizado que exibe as últimas músicas reproduzidas, e recomendações baseadas nas preferências do usuário.
 
-#### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
+## Seções Principais
+### Campo superior da tela inicial tirada em modo responsivo 
+![Botoes superiores](./assets/cabeçalho.png)
 
----
+**Botões e suas funções**
+
+**Foto de perfil** - ícone no canto superior esquerdo, foi usado uma imagem para simbolizar o perfi/conta do usuário.
+
+**Tudo** - botão usado para representar a tela inicial como um todo, sendo a primeira página a aparecer após a tela de login.
+
+**Músicas** - usado para representar um botão que conecta a tela inicial com a área de pesquiade.
+
+**Podcasts** - usado para representar um botão que conecta com área da biblioteca.
+
+### Músicas
+![Últimas músicas ouvidas](./assets/últimas_ouvidas.png)
+
+- Nessa seção são representados as últimas três músicas que o usuário escutou recentemente (imagens meramente ilustrativas).
+
+## Seção inferior e navbar
+![Descobertas para o usuário](./assets/descobertas.png)
+- Mostra duas músicas baseadas nas preferências do uruário
+
+### API utilizada
+![Teste da API](./assets/teste_postman.png)
+- API testada para certaza da funcionalidade e comprovação de sua eficácia, retornando a capa das músicas, com seus respectivos nomes e artistas/criadores.
+
+### Navbar
+- Pensada para se adaptar em telas de direntes tamanhos, e botões que direcionam o usuáro para as outras páginas do projeto.
+
+## Problemas enfrentados durante projeto
+
+#### Durante a codificação do projeto foram enfrentados problemas com a responsividade do aplicavo, sendo um problema recorrente a centralização das *div's*, como tentativa de solução foram empregados códigos do Flexbox, que se mostraram eficentes. Para resolver o problema de adaptação em diferentes tamanhos de telas foi usado o *midia query*. 
+
+### Diferenças com o protótipo do *Figma*
+
+#### No processo de criação do protótipo foram pensadas três seçõs que iriam compor toda a extensão da tela incial. A segunda seção seria a das *Playlists* que estaria localizada no centro da tela, entretanto, apresentei muita dificuldade em criar e acertar o tamanho e posicionamento das imagens e blocos em que as mesmas estariam inceridas, não estava entendo como deveriam ser criados os *conteiners* e qual seria o seu comportamento, por esse fato, optei por abandonar essa parte do protótipo.
+
+### Imagem da segunda seção
+
+![Segunda Seção](./assets/playlists.png)
+--- 
 
 ### Tela 3 (Área de pesquisa)
-
+![Print da Tela Inicial](./imagens/tela-inicial.png)
 
 ### Tela de Resultados  
-
+![Print da Tela de Resultados](./imagens/tela-resultados.png)
 
 #### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
@@ -78,12 +137,12 @@ Principais funcionalidades:
 
  #### TELA - modo responsivo
 
-![TELA RESPONSIVA](../projeto-mobile-app-m-sica/assets/TELA%20MOBILE%20-%20GI.png)
+<img src="../projeto-mobile-app-m-sica/assets/TELA MOBILE - GI.png" width= 170px>
 
 
 #### TELA - modo desktop
 
-![TELA DESKTOP](../projeto-mobile-app-m-sica/assets/TELA%20DESKTOP%20-%20GI.png)
+<img src="../projeto-mobile-app-m-sica/assets/TELA DESKTOP - GI.png" width=290px>
 
 ---
 
@@ -91,14 +150,14 @@ Principais funcionalidades:
 ### API - implementação e resultado no front-end
 
 #### POSTMAN/ teste da API
-![TESTE NO POSTMAN](../projeto-mobile-app-m-sica/assets/TESTE%20NO%20POSTMAN%20-%20GI.png)
+<img src="../projeto-mobile-app-m-sica/assets/TESTE NO POSTMAN - GI.png" width=290px>
 
 #### Os endpoints da API foram testados no Postman para validar seu funcionamento e as respostas retornadas. Isso garantiu que a API escolhida estivesse apresentando resultados e não possíveis erros que comprometesse a aplicação.
 
 ---
 
 #### RESULTADOS DA API/ front-end
-![RESULTADOS DA API](../projeto-mobile-app-m-sica/assets/RESULTADOS%20DA%20API%20-%20GI.png)
+<img src="../projeto-mobile-app-m-sica/assets/RESULTADOS DA API - GI.png" width=200px>
 
 #### Após a implementação da API em JavaScript, o sistema retorna uma prévia de álbuns com base na pesquisa do usuário. Os resultados incluem:
 
@@ -113,19 +172,19 @@ Principais funcionalidades:
 #### Ao clicar no botão, redireciona o usuário para a página do álbum no iTunes, onde é possível ouvir uma prévia das faixas.
 
 #### Exemplo:
-![PREVIEW DE ÁLBUNS](../projeto-mobile-app-m-sica/assets/PREVIEW%20DO%20ÁLBUM%20-%20GI.png)
+<img src="../projeto-mobile-app-m-sica/assets/PREVIEW DO ÁLBUM - GI.png" width=400px>
  
 
 #### No final dos resultados temos os botões de próximo e anterior para mais resultados!
 
-![ANTERIOR E PRÓXIMO](../projeto-mobile-app-m-sica/assets/ANTERIOR.PRÓXIMO%20-%20GI.png)
+<img src="../projeto-mobile-app-m-sica/assets/ANTERIOR.PRÓXIMO - GI.png" width= 200px>
 
 ---
 
 ### BOTÕES E FUNÇÕES
 
 #### Botões superiores e player de música
-![BOTÕES E PLAYER DE MÚSICA](../projeto-mobile-app-m-sica/assets/BOTÕES%20SUPERIORES%20-GI.png)
+<img src="../projeto-mobile-app-m-sica/assets/BOTÕES SUPERIORES -GI.png" width=200px>
 
 #### Barra Superior - Navegação Principal
 - Playlists: Exibe as playlists criadas pelo usuário.
@@ -145,7 +204,7 @@ Principais funcionalidades:
 
  #### Barra de pesquisa e playlists
 
- ![BUSCA E PLAYLIST](../projeto-mobile-app-m-sica/assets/BUSCA%20E%20PLAYLISTS%20-GI.png)
+ <img src="../projeto-mobile-app-m-sica/assets/BUSCA E PLAYLISTS -GI.png" width= 200px>
 
 #### Botão de pesquisa
 
@@ -169,7 +228,7 @@ Principais funcionalidades:
 
 #### Artistas seguidos e navbar
 
-![ARTISTAS E NAVBAR](../projeto-mobile-app-m-sica/assets/ARTISTAS%20E%20NAVBAR-%20GI.png)
+<img src="../projeto-mobile-app-m-sica/assets/ARTISTAS E NAVBAR- GI.png">
 
 #### Artistas seguidos
 
@@ -197,38 +256,38 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 
 #### * Dentro do código html foi utilizado alguns códigos para melhorar a acessibilidade, algumas Interação em JavaScript (simples) e a indentação do código.
 
-#### * As configuraçãos da API geram respostas de erro caso o usuário mande o formulário vazio ou digite um item inexistente/sem resultado.
+#### * Possui respostas de erro no JavaScript caso o user digite algo errado ou não existente da API!
 
-![ERRO 1](../projeto-mobile-app-m-sica/assets/MENSAGEM%20DE%20ERRO%201%20-%20GI.png)
-
-![ERRO 2](../projeto-mobile-app-m-sica/assets/MENSAGEM%20DE%20ERRO%202%20-%20GI.png)
+<img src="../projeto-mobile-app-m-sica/assets/MENSAGEM DE ERRO 1 - GI.png">
+<img src="../projeto-mobile-app-m-sica/assets/MENSAGEM DE ERRO 2 - GI.png">
 
 ---
 
 ### Tela 5 (Artista/Playlist por dentro)
-
+![Print da Tela Inicial](./imagens/tela-inicial.png)
 
 ### Tela de Resultados  
-
+![Print da Tela de Resultados](./imagens/tela-resultados.png)
 
 #### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
 ---
 
 ### Tela 6 (Reprodutor de música)
-
+![Print da Tela Inicial](./imagens/tela-inicial.png)
 
 ### Tela de Resultados  
-
+![Print da Tela de Resultados](./imagens/tela-resultados.png)
 
 #### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
 ---
 
 ### Tela 7 (Perfil do usuário)
-
+![Print da Tela Inicial](./imagens/tela-inicial.png)
 
 ### Tela de Resultados  
+![Print da Tela de Resultados](./imagens/tela-resultados.png)
 
 #### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
