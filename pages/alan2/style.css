@@ -8,6 +8,7 @@ body {
     align-items: left;
 }
 .icon1 {
+    display: flex;
     color: white;
     margin-top: 15px;
     margin-left: 30px;
@@ -68,4 +69,10 @@ body {
 #btn:active {
     font-size: 23px;
 
+}
+
+.a {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
