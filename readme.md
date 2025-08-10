@@ -123,7 +123,7 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 ![Segunda Seção](./assets/playlists.png)
 --- 
 
-### Tela 3 (Área de pesquisa)
+### Tela 3 (Área de pesquisa-Maykon)
 ![Print da Tela Inicial](./imagens/tela-inicial.png)
 
 ### Tela de Resultados  
@@ -133,16 +133,16 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 
 ---
 
-### Tela 4 (Biblioteca - GIOVANNA)
+### Tela 4 (Biblioteca - Giovanna)
 
  #### TELA - modo responsivo
 
-<img src="../projeto-mobile-app-m-sica/assets/TELA MOBILE - GI.png" width= 170px>
+![Tela responsiva](./assets/tela-responsiva.png)
 
 
 #### TELA - modo desktop
 
-<img src="../projeto-mobile-app-m-sica/assets/TELA DESKTOP - GI.png" width=290px>
+![Tela desktop](./assets/tela-desktop.png)
 
 ---
 
@@ -150,14 +150,16 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 ### API - implementação e resultado no front-end
 
 #### POSTMAN/ teste da API
-<img src="../projeto-mobile-app-m-sica/assets/TESTE NO POSTMAN - GI.png" width=290px>
+
+![Teste da API usando o PostMan](./assets/teste-postman.png)
 
 #### Os endpoints da API foram testados no Postman para validar seu funcionamento e as respostas retornadas. Isso garantiu que a API escolhida estivesse apresentando resultados e não possíveis erros que comprometesse a aplicação.
 
 ---
 
 #### RESULTADOS DA API/ front-end
-<img src="../projeto-mobile-app-m-sica/assets/RESULTADOS DA API - GI.png" width=200px>
+
+![Resultados da API](./assets/Resultados-da-API.png)
 
 #### Após a implementação da API em JavaScript, o sistema retorna uma prévia de álbuns com base na pesquisa do usuário. Os resultados incluem:
 
@@ -172,19 +174,21 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 #### Ao clicar no botão, redireciona o usuário para a página do álbum no iTunes, onde é possível ouvir uma prévia das faixas.
 
 #### Exemplo:
-<img src="../projeto-mobile-app-m-sica/assets/PREVIEW DO ÁLBUM - GI.png" width=400px>
+
+![Preview de álbum](./assets/preview-álbum.png)
  
 
 #### No final dos resultados temos os botões de próximo e anterior para mais resultados!
 
-<img src="../projeto-mobile-app-m-sica/assets/ANTERIOR.PRÓXIMO - GI.png" width= 200px>
+![Botões próximo e anterior](./assets/anterior-próximo.png)
 
 ---
 
 ### BOTÕES E FUNÇÕES
 
 #### Botões superiores e player de música
-<img src="../projeto-mobile-app-m-sica/assets/BOTÕES SUPERIORES -GI.png" width=200px>
+
+![Botões superiores](./assets/botões-superiores.png)
 
 #### Barra Superior - Navegação Principal
 - Playlists: Exibe as playlists criadas pelo usuário.
@@ -204,7 +208,7 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 
  #### Barra de pesquisa e playlists
 
- <img src="../projeto-mobile-app-m-sica/assets/BUSCA E PLAYLISTS -GI.png" width= 200px>
+ ![área de busca e playlists](./assets/busca-playlists.png)
 
 #### Botão de pesquisa
 
@@ -228,7 +232,7 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 
 #### Artistas seguidos e navbar
 
-<img src="../projeto-mobile-app-m-sica/assets/ARTISTAS E NAVBAR- GI.png">
+![Artistas seguidos e navbar](./assets/Artistas-Navbar.png)
 
 #### Artistas seguidos
 
@@ -258,37 +262,27 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 
 #### * Possui respostas de erro no JavaScript caso o user digite algo errado ou não existente da API!
 
-<img src="../projeto-mobile-app-m-sica/assets/MENSAGEM DE ERRO 1 - GI.png">
-<img src="../projeto-mobile-app-m-sica/assets/MENSAGEM DE ERRO 2 - GI.png">
+![Erro 1](./assets/Erro1.png)
+![Erro 2](./assets/Erro2.png)
+
+## * Durente o projeto ocorreram alguns erros como a API anterior por estar offline e ser considerada "instável", e o código não estar se adaptando para a tela de desktop.Contudo, tais erros foram arrumados com a utilização de uma API pública e conhecida, e ouve a utilização do Media Queries para a adaptação da tela corretamente.
 
 ---
 
-### Tela 5 (Artista/Playlist por dentro)
-![Print da Tela Inicial](./imagens/tela-inicial.png)
+### Tela 5 (Artista/Playlist por dentro - Alan)
 
 ### Tela de Resultados  
-![Print da Tela de Resultados](./imagens/tela-resultados.png)
-
-#### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
 ---
 
-### Tela 6 (Reprodutor de música)
-![Print da Tela Inicial](./imagens/tela-inicial.png)
+### Tela 6 (Reprodutor de música - Alan)
 
 ### Tela de Resultados  
-![Print da Tela de Resultados](./imagens/tela-resultados.png)
 
-#### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
 ---
 
-### Tela 7 (Perfil do usuário)
-![Print da Tela Inicial](./imagens/tela-inicial.png)
+### Tela 7 (Perfil do usuário - Emanuel)
 
-### Tela de Resultados  
-![Print da Tela de Resultados](./imagens/tela-resultados.png)
-
-#### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
 
 ---
