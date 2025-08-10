@@ -265,7 +265,7 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 ![Erro 1](./assets/Erro1.png)
 ![Erro 2](./assets/Erro2.png)
 
-## * Durente o projeto ocorreram alguns erros como a API anterior por estar offline e ser considerada "instável", e o código não estar se adaptando para a tela de desktop.Contudo, tais erros foram arrumados com a utilização de uma API pública e conhecida, e ouve a utilização do Media Queries para a adaptação da tela corretamente.
+#### * Durente o projeto ocorreram alguns erros como a API anterior por estar offline e ser considerada "instável", e o código não estar se adaptando para a tela de desktop.Contudo, tais erros foram arrumados com a utilização de uma API pública e conhecida, e ouve a utilização do Media Queries para a adaptação da tela corretamente.
 
 ---
 
