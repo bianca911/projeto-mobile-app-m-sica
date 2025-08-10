@@ -271,8 +271,13 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 
 ### Tela 5 (Artista/Playlist por dentro - Alan)
 
-### Tela de Resultados  
+### TELA - modo Responsivo
 
+![Tela_Responsiva](./assets/Album-responsivo.png)
+
+### TELA - modo desktop 
+
+![Tela_Desktop](./assets/Album-desktop.png)
 ---
 
 ### Tela 6 (Reprodutor de música - Alan)
