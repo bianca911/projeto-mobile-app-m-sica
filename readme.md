@@ -311,7 +311,7 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 ---
 
 ## Problemas enfrentados durante o projeto.
-### Não consegui fazer com que quando clicasse no icon (De pause e play) a música pudesse tocar.Outro problema que eu encontrei, que consegui resolver na minha outra página (do Álbum) foi quando coloquei um link usando a tag "a" a cor original do item foi mudada para azul, mas infelizmente nessa página não fui capaz de resolver e acabei optando por deixar azul ao invés da cor original branca. 
+### Não consegui fazer com que quando clicasse no icon (De pause e play) a música pudesse tocar.Outro problema que eu encontrei, que consegui resolver na minha outra página (do Álbum) foi quando coloquei um link usando a tag "a" a cor original do item foi mudada para azul, mas infelizmente nessa página não fui capaz de resolver e acabei optando por deixar azul ao invés da cor original branca. E as medias queries tive novamente o mesmo problema de não conseguir adaptar para o modo desktop. 
 ---
 ## Foto do problema. 
 ![Problema](./assets/Problema-alan.png)
