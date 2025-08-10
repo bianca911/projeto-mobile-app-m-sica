@@ -274,19 +274,57 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 ### TELA - modo Responsivo
 
 ![Tela_Responsiva](./assets/Album-responsivo.png)
+---
 
 ### TELA - modo desktop 
+
+---
 
 ![Tela_Desktop](./assets/Album-desktop.png)
 ---
 
-### Tela 6 (Reprodutor de música - Alan)
-
-### Tela de Resultados  
-
+## Problemas enfrentados durante o projeto.
+### De forma geral, um dos problemas que tive durante a criação do projeto foi a centralização de div, na qual em alguns elementos tive que deixar de lado, pois estava demorando tanto para conseguir centralizar que acabei deixando da maneira que estava. Em alguns casos consegui resolver através do flexbox, outro problema foi na questão das medias queries, não consegui fazer com que funcionasse para modo desktop, funcionando apenas para celulares/tablets. 
 
 ---
 
+## Para quais funcionalidades foi pensada
+- Exibição do nome do álbum e capa (imagem)
+- Listagem das músicas do álbum com seus títulos.
+---
+## Observações 
+- Não há uso de APIs externas para reprodução de músicas (Por recomendação do professor)
+- O Design foi pensado e feito de forma com que o usuário se sentisse confortavel, usando cores que combinassem com o álbum.
+- Diferente do protótipo do figma, não foi colocado a ygona. 
+---
+
+### Tela 6 (Reprodutor de música - Alan)
+
+### TELA - modo responsivo 
+---
+![Tela_Responsiva](./assets/musica-responsivo.png)
+---
+
+### TELA - modo desktop
+---
+![Tela_Desktop](./assets/musica_desktop.png)
+---
+
+## Problemas enfrentados durante o projeto.
+### Não consegui fazer com que quando clicasse no icon (De pause e play) a música pudesse tocar.Outro problema que eu encontrei, que consegui resolver na minha outra página (do Álbum) foi quando coloquei um link usando a tag "a" a cor original do item foi mudada para azul, mas infelizmente nessa página não fui capaz de resolver e acabei optando por deixar azul ao invés da cor original branca. 
+---
+## Foto do problema. 
+![Problema](./assets/Problema-alan.png)
+---
+- O link foi pensado para que quando clicasse nesse icon voltasse para a minha outra tela que era o Álbum.
+## Para quais funcionalidades foi pensada 
+- Para que pudesse dar play, pause ou passar para a proxima música.
+---
+## Observações 
+- Não há uso de APIs externas para reprodução de música.
+- A parte dos minutos da música foi usado uma print para simular. 
+- Teve algumas mudanças que optei fazer diferente do figma como diversos botões que havia de configuração, curtida etc... que resolvi não colocar pois atrasaria o projeto.
+---
 ### Tela 7 (Perfil do usuário - Emanuel)
 
 
