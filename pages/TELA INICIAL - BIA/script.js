@@ -73,3 +73,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     fetchTopTracks();
 });
+
+
+document.querySelectorAll('h2').forEach(h2 => {
+  h2.style.color = 'white';
+});
