@@ -79,10 +79,10 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 ---
 
 ## Tela 2 (página inicial-Bianca P.)
-![Print da Tela Inicial](./assets/tela_grande.png)
+![Print da Tela Inicial](./assets/tela_inicial2.png)
 
 ## Tela em Modo responsivo  
-![Print da Tela em modo responsivo](./assets/tela_responsiva.png)
+![Print da Tela em modo responsivo](./assets/tela_inicial.png)
 
 ### Para quais funcionalidades foi pensada
 - Foi programado para apresentar histórico Personalizado que exibe as últimas músicas reproduzidas, e recomendações baseadas nas preferências do usuário.
@@ -107,11 +107,26 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 - Nessa seção são representados as últimas três músicas que o usuário escutou recentemente (imagens meramente ilustrativas).
 
 ## Seção inferior e navbar
-![Descobertas para o usuário](./assets/descobertas.png)
-- Mostra duas músicas baseadas nas preferências do uruário
+![Descobertas para o usuário](./assets/descobertas2.png)
+- Mostra duas músicas baseadas em quatro opções.
+--- 
+
+## Opções de Músicas
+- Como aparece em tela de computador/telas grandes.
+![Tela  Grande](./assets/opcões.png)
+- Como aparece em modo responsivo/telas pequenas.
+![Modo responsivo](./assets/opções_responsiva.png)
+
+### O que ela retorna ao escolher um opção
+- Todas retornam duas músicas de um mesmo artista.
+![DaftPunk](./assets/daftpunk.png)
+![Rock](./assets/rock.png)
+![Pop](./assets/pop.png)
+![Aleatório](./assets/aleatório%20(2).png)
+
 
 ### API utilizada
-![Teste da API](./assets/teste_postman.png)
+![Teste da API](./assets/teste_post.png)
 - API testada para certaza da funcionalidade e comprovação de sua eficácia, retornando a capa das músicas, com seus respectivos nomes e artistas/criadores.
 
 ### Navbar
