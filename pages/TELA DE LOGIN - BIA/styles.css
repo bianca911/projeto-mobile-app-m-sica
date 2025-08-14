@@ -1,0 +1,81 @@
+body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+
+}
+
+body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at center, #F230AA, #CCF656);
+        z-index: -1;
+}
+
+.col {
+        padding-left: 10px;
+        padding-right: 10px;
+}
+
+.col h1 {
+
+        color: white;
+        font-weight: bold;
+        font-size: 42px;
+        font-family: 'Kdam Thmor Pro', sans-serif !important;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #684747;
+        padding-top: 115px;
+}
+
+.col p {
+        color: white;
+        font-weight: 100;
+        font-family: 'Kdam Thmor Pro', sans-serif !important;
+        font-size: 16px;
+        padding-top: 30px;
+
+}
+
+.mb-3 {
+        padding-top: 30px;
+
+}
+
+.oo button {
+        background-color: #B22675;
+        color: rgb(255, 255, 255);
+        padding: 15px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 6px 10px;
+        border-radius: 20px;
+}
+
+.container text {
+        color: black;
+}
+
+.text {
+        padding-top: 30px;
+        font-size: 20px;
+}
+
+.o button {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        padding: 15px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 7px 10px;
+        border-radius: 20px;
+}

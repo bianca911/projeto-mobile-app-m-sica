@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(to bottom, rgb(146, 8, 146), rgb(0, 0, 0));
+    margin: 0;
+    height: 100vh;
+    font-family: arial, sans-serif;
+    color: rgb(228, 228, 228);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 100vh;
+}
+
+.pesquisa button {
+    color: rgb(0, 0, 0);
+    background-color: #CCF656;
+    display: flex;
+    width: 390px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    align-items: center;
+    border: #b4b4b4;
+}
+
+.lupa {
+    padding-left: 180px;
+    padding: top 20px;
+}
+
+.rosa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    background-color: #dd28ac;
+    border: #b4b4b4;
+
+    border-radius: 50px;
+    margin: 10px;
+    height: 100%;
+}
+
+.img {
+    width: 45%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -190px;
+    margin-bottom: -150px;
+
+}
+
+.img2 {
+    width: 45%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -50PX;
+}
+
+.IMAGEM3 {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    margin-bottom: -150%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.botão-nav {
+    margin-top: 20px;
+    color: white;
+    width: 90px;
+    height: 40px;
+    padding: 10px;
+}
+
+.blabi {
+    color: #CCF656;
+    text-align: center;
+    padding-top: -10%;
+}
