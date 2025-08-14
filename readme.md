@@ -1,33 +1,32 @@
 # PROJETO CYBERFLOW
 
 **Integrantes do grupo:**  
-<<<<<<< HEAD
 - BIANCA PEREIRA MOREIRA N3
 - EMANUEL MORAES ALMEIDA N6
 - GIOVANNA GABRIELLY BURDA N8
 - MAYKON DA COSTA SALVADOR N22
 - ALAN CORDEIRO MARTINS N29
-=======
-- BIANCA PEREIRA MOREIRA 
-- EMANUEL MORAES ALMEIDA 
-- GIOVANNA GABRIELLY BURDA 
-- MAYKON DA COSTA SALVADOR 
-- ALAN CORDEIRO MARTINS
->>>>>>> d9ab54f07aaee1c7b7345f341aa043d720ea88b3
 
 ---
+## Link do Protótipo no Figma
+
+[CLIQUE AQUI ⊹ ࣪ ˖](https://www.figma.com/design/Rz1DUMhDxURiwI04CMQnrp/cyberflow?m=auto&t=moX9mbCpmH5n6nJ6-6)
+--- 
 
 ## API Utilizada
 
 DEEZER API  
 [CLIQUE AQUI ⊹ ࣪ ˖](https://developers.deezer.com/api)
 
----
+#### *Páginas com consumo de APIs* 
+- Tela Inicial (Bianca P.);
+- Biblioteca (Giovanna G.).
 
-## Link do Protótipo no Figma
+## *Observação* 
 
-[CLIQUE AQUI ⊹ ࣪ ˖](https://www.figma.com/design/Rz1DUMhDxURiwI04CMQnrp/cyberflow?m=auto&t=moX9mbCpmH5n6nJ6-6)
-
+#### Em determinadas páginas não há utilização de API, sendo elas: 
+- Álbum/Reprodução (ALAN) - Não há uso de APIs externas para reprodução de músicas (Por recomendação do professor), pois, foi verificado em outras turmas que a utilização de APIs relacionadas a reprodução de músicas, de forma geral, apresentava erros.
+- Perfil (EMANUEL) - Não participou ativamente do projeto.
 ---
 
 ## Tecnologias Usadas
@@ -301,7 +300,7 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 - Listagem das músicas do álbum com seus títulos.
 ---
 ## Observações 
-- Não há uso de APIs externas para reprodução de músicas (Por recomendação do professor)
+
 - O Design foi pensado e feito de forma com que o usuário se sentisse confortavel, usando cores que combinassem com o álbum.
 - Diferente do protótipo do figma, não foi colocado a ygona. 
 ---
