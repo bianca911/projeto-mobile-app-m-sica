@@ -46,31 +46,25 @@
     </div>
 
     <div class="main-container">
-        <section id="descobertas">
+    <section id="descobertas">
+        <div class="discovery-header">
             <h2>Descobertas para você</h2>
-            <ul class="discovery-container" id="music-container">
-                <li class="discovery-item">
-                    <div class="musica4"> <img src="./assets/mount eerie by the microphones (2003) 1.png"
-                            alt="Mount Eerie"></div>
-                    <div class="music-infor">
-                        <div class="music-titulo">Mount Eerie</div>
-                        <div class="music-art">The Microphones</div>
-                    </div>
-                </li>
-
-                <li class="discovery-item">
-                    <div class="musica5"> <img src="./assets/X’s - Cigarettes After Sex 1.png" alt="X's"></div>
-                    <div class="music-infor">
-                        <div class="music-titulo">X's</div>
-                        <div class="music-art">Cigarettes After Sex</div>
-                    </div>
-                </li>
-            </ul>
-            <div class="loading">Carregando músicas...</div>
-            <div class="error-message" style="display: none;"></div>
-        </section>
-    </div>
-
+            <div class="music-selector">
+                <select id="music-source" class="source-select">
+                    <option value="daftpunk">Daft Punk</option>
+                    <option value="rock">Rock</option>
+                    <option value="pop">Pop</option>
+                    <option value="random">Aleatório</option>
+                </select>
+            </div>
+        </div>
+        
+        <ul class="discovery-container" id="music-container"></ul>
+        
+        <div class="loading">Carregando músicas...</div>
+        <div class="error-message" style="display: none;"></div>
+    </section>
+</div>
 
     <div class="navbar">
         <div class="navbar-container">
@@ -108,7 +102,7 @@
     </div>
 
 
-    <link rel="stylesheet" href="script.js">
+    
     <script src="script.js"></script>
 </body>
 
