@@ -112,16 +112,23 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 --- 
 
 ## Opções de Músicas
-- Como aparece em tela de computador/telas grandes.
+Como aparece em tela de computador/telas grandes.
+
 ![Tela  Grande](./assets/opcões.png)
-- Como aparece em modo responsivo/telas pequenas.
+
+Como aparece em modo responsivo/telas pequenas.
+
 ![Modo responsivo](./assets/opções_responsiva.png)
 
 ### O que ela retorna ao escolher um opção
-- Todas retornam duas músicas de um mesmo artista.
+ Todas retornam duas músicas de um mesmo artista.
+
 ![DaftPunk](./assets/daftpunk.png)
+
 ![Rock](./assets/rock.png)
+
 ![Pop](./assets/pop.png)
+
 ![Aleatório](./assets/aleatório%20(2).png)
 
 
