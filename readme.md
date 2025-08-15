@@ -26,6 +26,7 @@ DEEZER API
 
 #### Em determinadas páginas não há utilização de API, sendo elas: 
 - Álbum/Reprodução (ALAN) - Não há uso de APIs externas para reprodução de músicas (Por recomendação do professor), pois, foi verificado em outras turmas que a utilização de APIs relacionadas a reprodução de músicas, de forma geral, apresentava erros.
+- Pesquisa (MAYKON) - A aplicação em JavaScript não retornava respostas, assim, optou por manter sem.
 - Perfil (EMANUEL) - Não participou ativamente do projeto.
 ---
 
