@@ -367,5 +367,7 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 ---
 ### Tela 7 (Perfil do usuário - Emanuel)
 
+## NÃO CONTRIBUIU COM O PROJETO
+
 
 ---
