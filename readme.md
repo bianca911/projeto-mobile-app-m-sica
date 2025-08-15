@@ -153,12 +153,22 @@ Como aparece em modo responsivo/telas pequenas.
 --- 
 
 ### Tela 3 (Área de pesquisa-Maykon)
-![Print da Tela Inicial](./imagens/tela-inicial.png)
+![Tela Inicial](./assets/PAGINA%20NAO%20RESPONSIVO.png)
 
 ### Tela de Resultados  
-![Print da Tela de Resultados](./imagens/tela-resultados.png)
+![tela modo computador](./assets/pagina%20responsiva.png)
 
-#### escreva aqui como funciona a sua página, e lembre de falar sobre oque sua api faz, função de cada botão e as funcionalidades;3
+#### Eu pensei em base no projeto que fizemos no figma, tentei fazer o mais fiel possivel ao esboço inicial, talvez e tenha sonhado muito alto mas eu acho que consegui deixa parecido. O objetivo da minha página é mostrar os artistas mais em alta e também ser uma aba de pesquisa para você conhecer novos artistas e descobrir novos gostos musicais.
+
+## EXPLICAÇÃO DAS FUNCIONALIDADES.
+#### Nessa parte eu pensei em fazer uma barra de pesquisa para o usuário conhecer novos artistas ou buscar seus artistas favoritos.
+![parte da poesquisa](./assets/aba%20de%20pesquisa.png)
+
+#### Nessa parte do meu projeto eu usei de referencia algumas abas do spotfy em que ele recomenda os "top artistas" mais ouvidos, claro q eu so coloquei artistas que gosto, não tem nenhum dado estatístico sobre os ouvintes desses artistas.
+![artistas](./assets/DIVAS.png)
+#### A navbar foi uma decisao conjunta entre os membros da equipe, na qual tem a funcionalidade de transitar entre as páginas tendo uma navegação dinâmica e fluída
+![navbar](./assets/NAVBAR-MAYKON.png)
+
 
 ---
 
