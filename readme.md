@@ -10,7 +10,7 @@
 ---
 ## Link do Protótipo no Figma
 
-[CLIQUE AQUI ⊹ ࣪ ˖](https://www.figma.com/design/Rz1DUMhDxURiwI04CMQnrp/cyberflow?m=auto&t=moX9mbCpmH5n6nJ6-6)
+#### [CLIQUE AQUI ⊹ ࣪ ˖](https://www.figma.com/design/Rz1DUMhDxURiwI04CMQnrp/cyberflow?m=auto&t=moX9mbCpmH5n6nJ6-6)
 --- 
 
 ## API Utilizada
@@ -45,7 +45,6 @@ DEEZER API
 Este é um app de música com uma estética futurista e interface altamente intuitiva. Ele foi desenvolvido com o objetivo de despertar no usuário a curiosidade e o interesse em explorar ao máximo todas as funcionalidades disponíveis.
 
 Principais funcionalidades:
-- Reprodução de músicas.
 - Sistema de recomendações (artistas,músicas e etc).
 - Campo de busca de albúns e artistas.
 - adaptação a diferentes dispositivos.
@@ -55,10 +54,10 @@ Principais funcionalidades:
 ## App em Funcionamento
 
 ### Tela 1 (login-Bianca P.)
-![Print da Tela Inicial ](./assets/tela_login.png)
+![Print da Tela Inicial ](.//readme.img/tela_login.png)
 
 ### Tela em Modo responsivo  
-![Print da Tela em modo responsivo](./assets/tela_login_responsivo.png)
+![Print da Tela em modo responsivo](./readme.img/tela_login_responsivo.png)
 
 ## Descrição
 - Possui tela de autenticação com campos para usuário e senha, e
@@ -72,25 +71,25 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 
 ## Problemas enfrentados durante projeto
 
-#### De forma geral, o maior problema enfrendato durante a codificação da página inicial, foi o gradiente utilizado no fundo. Por nunca ter feito algo mais complexo do que colocar uma imagem no fundo, o gradiente foi uma das minhas maiores dificuldades. Outro problema foi a centralização das *div's*, que foram resolvidos com o uso do *Flexbox*.
+#### De forma geral, o maior problema enfrentado durante a codificação da página inicial, foi o gradiente utilizado no fundo. Por nunca ter feito algo mais complexo do que colocar uma imagem no fundo, o gradiente foi uma das minhas maiores dificuldades. Outro problema foi a centralização das *div's*, que foram resolvidos com o uso do *Flexbox*.
 
 ### Solução para o gradiente de fundo
 
-![Solução](./assets/solução.png)
+![Solução](./readme.img/solução.png)
 ---
 
 ## Tela 2 (página inicial-Bianca P.)
-![Print da Tela Inicial](./assets/tela_inicial2.png)
+![Print da Tela Inicial](./readme.img/tela_inicial2.png)
 
 ## Tela em Modo responsivo  
-![Print da Tela em modo responsivo](./assets/tela_inicial.png)
+![Print da Tela em modo responsivo](./readme.img/tela_inicial.png)
 
 ### Para quais funcionalidades foi pensada
 - Foi programado para apresentar histórico Personalizado que exibe as últimas músicas reproduzidas, e recomendações baseadas nas preferências do usuário.
 
 ## Seções Principais
 ### Campo superior da tela inicial tirada em modo responsivo 
-![Botoes superiores](./assets/cabeçalho.png)
+![Botoes superiores](./readme.img/cabeçalho.png)
 
 **Botões e suas funções**
 
@@ -103,38 +102,38 @@ opções para "Esqueci minha senha" e registro de novos usuários.
 **Podcasts** - usado para representar um botão que conecta com área da biblioteca.
 
 ### Músicas
-![Últimas músicas ouvidas](./assets/últimas_ouvidas.png)
+![Últimas músicas ouvidas](./readme.img/últimas_ouvidas.png)
 
 - Nessa seção são representados as últimas três músicas que o usuário escutou recentemente (imagens meramente ilustrativas).
 
 ## Seção inferior e navbar
-![Descobertas para o usuário](./assets/descobertas2.png)
+![Descobertas para o usuário](./readme.img/descobertas2.png)
 - Mostra duas músicas baseadas em quatro opções.
 --- 
 
 ## Opções de Músicas
 Como aparece em tela de computador/telas grandes.
 
-![Tela  Grande](./assets/opcões.png)
+![Tela  Grande](./readme.img/opcões.png)
 
 Como aparece em modo responsivo/telas pequenas.
 
-![Modo responsivo](./assets/opções_responsiva.png)
+![Modo responsivo](./readme.img/opções_responsiva.png)
 
 ### O que ela retorna ao escolher um opção
  Todas retornam duas músicas de um mesmo artista.
 
-![DaftPunk](./assets/daftpunk.png)
+![DaftPunk](./readme.img/daftpunk.png)
 
-![Rock](./assets/rock.png)
+![Rock](./readme.img/rock.png)
 
-![Pop](./assets/pop.png)
+![Pop](./readme.img/pop.png)
 
-![Aleatório](./assets/aleatório%20(2).png)
+![Aleatório](./readme.img/aleatório%20(2).png)
 
 
 ### API utilizada
-![Teste da API](./assets/teste_post.png)
+![Teste da API](./readme.img/teste_post.png)
 - API testada para certaza da funcionalidade e comprovação de sua eficácia, retornando a capa das músicas, com seus respectivos nomes e artistas/criadores.
 
 ### Navbar
@@ -150,25 +149,25 @@ Como aparece em modo responsivo/telas pequenas.
 
 ### Imagem da segunda seção
 
-![Segunda Seção](./assets/playlists.png)
+![Segunda Seção](./readme.img/playlists.png)
 --- 
 
 ### Tela 3 (Área de pesquisa-Maykon)
-![Tela Inicial](./assets/PAGINA%20NAO%20RESPONSIVO.png)
+![Tela Inicial](./readme.img/PAGINA%20NAO%20RESPONSIVO.png)
 
 ### Tela de Resultados  
-![tela modo computador](./assets/pagina%20responsiva.png)
+![tela modo computador](./readme.img/pagina%20responsiva.png)
 
 #### Eu pensei em base no projeto que fizemos no figma, tentei fazer o mais fiel possivel ao esboço inicial, talvez e tenha sonhado muito alto mas eu acho que consegui deixa parecido. O objetivo da minha página é mostrar os artistas mais em alta e também ser uma aba de pesquisa para você conhecer novos artistas e descobrir novos gostos musicais.
 
 ## EXPLICAÇÃO DAS FUNCIONALIDADES.
 #### Nessa parte eu pensei em fazer uma barra de pesquisa para o usuário conhecer novos artistas ou buscar seus artistas favoritos.
-![parte da poesquisa](./assets/aba%20de%20pesquisa.png)
+![parte da poesquisa](./readme.img/aba%20de%20pesquisa.png)
 
 #### Nessa parte do meu projeto eu usei de referencia algumas abas do spotfy em que ele recomenda os "top artistas" mais ouvidos, claro q eu so coloquei artistas que gosto, não tem nenhum dado estatístico sobre os ouvintes desses artistas.
-![artistas](./assets/DIVAS.png)
+![artistas](./readme.img/DIVAS.png)
 #### A navbar foi uma decisao conjunta entre os membros da equipe, na qual tem a funcionalidade de transitar entre as páginas tendo uma navegação dinâmica e fluída
-![navbar](./assets/NAVBAR-MAYKON.png)
+![navbar](./readme.img/NAVBAR-MAYKON.png)
 
 
 ---
@@ -177,12 +176,12 @@ Como aparece em modo responsivo/telas pequenas.
 
  #### TELA - modo responsivo
 
-![Tela responsiva](./assets/tela-responsiva.png)
+![Tela responsiva](./readme.img/tela-responsiva.png)
 
 
 #### TELA - modo desktop
 
-![Tela desktop](./assets/tela-desktop.png)
+![Tela desktop](./readme.img/tela-desktop.png)
 
 ---
 
@@ -191,7 +190,7 @@ Como aparece em modo responsivo/telas pequenas.
 
 #### POSTMAN/ teste da API
 
-![Teste da API usando o PostMan](./assets/teste-postman.png)
+![Teste da API usando o PostMan](./readme.img/teste-postman.png)
 
 #### Os endpoints da API foram testados no Postman para validar seu funcionamento e as respostas retornadas. Isso garantiu que a API escolhida estivesse apresentando resultados e não possíveis erros que comprometesse a aplicação.
 
@@ -199,7 +198,7 @@ Como aparece em modo responsivo/telas pequenas.
 
 #### RESULTADOS DA API/ front-end
 
-![Resultados da API](./assets/Resultados-da-API.png)
+![Resultados da API](./readme.img/Resultados-da-API.png)
 
 #### Após a implementação da API em JavaScript, o sistema retorna uma prévia de álbuns com base na pesquisa do usuário. Os resultados incluem:
 
@@ -215,12 +214,12 @@ Como aparece em modo responsivo/telas pequenas.
 
 #### Exemplo:
 
-![Preview de álbum](./assets/preview-álbum.png)
+![Preview de álbum](./readme.img/preview-álbum.png)
  
 
 #### No final dos resultados temos os botões de próximo e anterior para mais resultados!
 
-![Botões próximo e anterior](./assets/anterior-próximo.png)
+![Botões próximo e anterior](./readme.img/anterior-próximo.png)
 
 ---
 
@@ -228,7 +227,7 @@ Como aparece em modo responsivo/telas pequenas.
 
 #### Botões superiores e player de música
 
-![Botões superiores](./assets/botões-superiores.png)
+![Botões superiores](./readme.img/botões-superiores.png)
 
 #### Barra Superior - Navegação Principal
 - Playlists: Exibe as playlists criadas pelo usuário.
@@ -248,7 +247,7 @@ Como aparece em modo responsivo/telas pequenas.
 
  #### Barra de pesquisa e playlists
 
- ![área de busca e playlists](./assets/busca-playlists.png)
+ ![área de busca e playlists](./readme.img/busca-playlists.png)
 
 #### Botão de pesquisa
 
@@ -272,7 +271,7 @@ Como aparece em modo responsivo/telas pequenas.
 
 #### Artistas seguidos e navbar
 
-![Artistas seguidos e navbar](./assets/Artistas-Navbar.png)
+![Artistas seguidos e navbar](./readme.img/Artistas-Navbar.png)
 
 #### Artistas seguidos
 
@@ -302,10 +301,10 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 
 #### * Possui respostas de erro no JavaScript caso o user digite algo errado ou não existente da API!
 
-![Erro 1](./assets/Erro1.png)
-![Erro 2](./assets/Erro2.png)
+![Erro 1](./readme.img/Erro1.png)
+![Erro 2](./readme.img/Erro2.png)
 
-#### * Durente o projeto ocorreram alguns erros como a API anterior por estar offline e ser considerada "instável", e o código não estar se adaptando para a tela de desktop.Contudo, tais erros foram arrumados com a utilização de uma API pública e conhecida, e ouve a utilização do Media Queries para a adaptação da tela corretamente.
+#### * Durante o projeto ocorreram alguns erros com a API anterior por estar offline e ser considerada "instável", e o código não estar se adaptando para a tela de desktop.Contudo, tais erros foram arrumados com a utilização de uma API pública e conhecida, e ouve a utilização do Media Queries para a adaptação da tela corretamente.
 
 ---
 
@@ -313,18 +312,18 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 
 ### TELA - modo Responsivo
 
-![Tela_Responsiva](./assets/Album-responsivo.png)
+![Tela_Responsiva](./readme.img/Album-responsivo.png)
 ---
 
 ### TELA - modo desktop 
 
 ---
 
-![Tela_Desktop](./assets/Album-desktop.png)
+![Tela_Desktop](./readme.img/Album-desktop.png)
 ---
 
 ## Problemas enfrentados durante o projeto.
-### De forma geral, um dos problemas que tive durante a criação do projeto foi a centralização de div, na qual em alguns elementos tive que deixar de lado, pois estava demorando tanto para conseguir centralizar que acabei deixando da maneira que estava. Em alguns casos consegui resolver através do flexbox, outro problema foi na questão das medias queries, não consegui fazer com que funcionasse para modo desktop, funcionando apenas para celulares/tablets. 
+#### De forma geral, um dos problemas que tive durante a criação do projeto foi a centralização de div, na qual em alguns elementos tive que deixar de lado, pois estava demorando tanto para conseguir centralizar que acabei deixando da maneira que estava. Em alguns casos consegui resolver através do flexbox, outro problema foi na questão das medias queries, não consegui fazer com que funcionasse para modo desktop, funcionando apenas para celulares/tablets. 
 
 ---
 
@@ -342,19 +341,19 @@ A barra de navegação permanece fixa em todas as páginas, garantindo acesso r�
 
 ### TELA - modo responsivo 
 ---
-![Tela_Responsiva](./assets/musica-responsivo.png)
+![Tela_Responsiva](./readme.img/musica-responsivo.png)
 ---
 
 ### TELA - modo desktop
 ---
-![Tela_Desktop](./assets/musica_desktop.png)
+![Tela_Desktop](./readme.img/musica_desktop.png)
 ---
 
 ## Problemas enfrentados durante o projeto.
 ### Não consegui fazer com que quando clicasse no icon (De pause e play) a música pudesse tocar.Outro problema que eu encontrei, que consegui resolver na minha outra página (do Álbum) foi quando coloquei um link usando a tag "a" a cor original do item foi mudada para azul, mas infelizmente nessa página não fui capaz de resolver e acabei optando por deixar azul ao invés da cor original branca. E as medias queries tive novamente o mesmo problema de não conseguir adaptar para o modo desktop. 
 ---
 ## Foto do problema. 
-![Problema](./assets/Problema-alan.png)
+![Problema](./readme.img/Problema-alan.png)
 ---
 - O link foi pensado para que quando clicasse nesse icon voltasse para a minha outra tela que era o Álbum.
 ## Para quais funcionalidades foi pensada 
